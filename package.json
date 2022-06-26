@@ -1,0 +1,17 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "xxg-blog",
+  "main": "index.js",
+  "author": "xxg",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  }
+}
