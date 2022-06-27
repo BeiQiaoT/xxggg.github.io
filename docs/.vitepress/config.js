@@ -41,8 +41,8 @@ export default {
                 text: '👨‍💻 关于我',
                 items: [
                     { text: '👨‍💻 关于我', link: '../About/AboutMe' },
-                    { text: '🐤 小黄鸭举个栗子', link: '../About/AboutDuck' },
-                    { text: '🍥 【旧】的博客', link: 'https://xxggg.github.io/xxggg.github.io_old' },
+                    { text: '🐤 小黄鸭', link: '../About/AboutDuck' },
+                    { text: '🍥 【旧】的博客', link: 'https://xxggg.github.io/XXG-Blog' },
                 ]
             }
         ],
@@ -148,7 +148,7 @@ export default {
                     items: [
                         // This shows `/config/index.md` page.
                         { text: '👨‍💻 关于我', link: '/About/AboutMe' }, // /config/index.md
-                        { text: '🐤 小黄鸭举个栗子🌰', link: '/About/AboutDuck' }, // /config/three.md
+                        { text: '🐤 小黄鸭', link: '/About/AboutDuck' }, // /config/three.md
                          
                     ]
                 }

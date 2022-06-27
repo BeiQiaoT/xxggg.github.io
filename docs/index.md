@@ -2,22 +2,17 @@
 layout: home
 
 hero:
-  name: 🐤小黄鸭举个栗子🌰
-  text: 
-  tagline: 欢迎来到我的博客，我是谢夏戈。在这里我会分享我的学习成果、笔记。并以一个初学者的角度去描述我学到的知识，你听过【程序员与小黄鸭】的故事吗？！
+  name: 🐤『小黄鸭』🐤
+  text: 欢迎来到 谢夏戈的博客
+  tagline: 在这里，我尽量摆脱「知识诅咒」，根据「费曼学习法」「小黄鸭调试法」的方式，以初学者的角度来记录以及分享我的笔记和学习路径，希望一些基础的网页制作教程能帮助到零基础的人。笔记的🌰例子能简单易懂、生动形象。
   actions:
     - theme: brand
-      text: 👨‍💻 关于我
-      link: /About/AboutMe
-    - theme: alt
-      text: 🐤 小黄鸭
+      text: 🐤 关于这个博客 - 小黄鸭
       link: /About/AboutDuck
     - theme: alt
-      text: 🥚 零基础
+      text: 🥚 网页制作教程
       link: /FrontEnd/FrontEnd/index
-    - theme: alt
-      text: 📖 前端学习路径
-      link: /FrontEnd/FrontEnd/LearningPath
+      
 
 features:
   - icon: 💻
