@@ -1,9 +1,26 @@
 export default {
-    title: '🐤小黄鸭举个栗子🌰', //标题
-    titleTemplate: '『谢夏戈博客』', //标题模板
+    title: '小黄鸭', //标题
+    titleTemplate: '谢夏戈的博客', //标题模板
     description: 'XXG-BLOG', //描述
     lastUpdated: true, //开启上次更新时间
- 
+    
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['meta', { property: 'og:title', content: '谢夏戈博客' }],
+        ['meta', { property: 'og:site_name', content: '谢夏戈博客' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:description', content: '前端教程' }],
+        ['meta', { property: 'og:url', content: 'https://xxggg.github.io/' }],
+        [
+            "script",
+            {
+                "data-ad-client": "ca-pub-7650804804345609",
+                async: true,
+                src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            }
+        ]
+    ],
+
     // Theme related configurations.[自定义主题]
     themeConfig: {
         logo: '/logo.svg',
@@ -166,9 +183,9 @@ export default {
             copyright: 'Copyright © 2019-present 谢夏戈'
         },
         //碳广告
-        // carbonAds: {
-        //     code: 'your-carbon-code',
-        //     placement: 'your-carbon-placement'
-        // }
+        carbonAds: {
+            code: 'your-carbon-code',
+            placement: 'your-carbon-placement'
+        }
     }
 }
