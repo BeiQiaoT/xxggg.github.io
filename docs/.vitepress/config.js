@@ -93,7 +93,6 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟧 HTML', link: '/FrontEnd/HTML/' }, 
-                        { text: '🟧 HTML笔记', link: '/FrontEnd/HTML/Note' }, 
                     ]
                 },
                 {
@@ -101,8 +100,6 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟥 CSS', link: '/FrontEnd/CSS/' }, 
-                        { text: '🟥 CSS3', link: '/FrontEnd/CSS/CSS3' }, 
-                        { text: '🟥 ', link: '/FrontEnd/CSS/CSS3' }, 
                     ]
                 },
                 {
