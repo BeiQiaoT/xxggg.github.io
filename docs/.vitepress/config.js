@@ -20,7 +20,10 @@ export default {
             }
         ]
     ],
-
+    
+    markdown: {
+        extractHeaders: [ 'h2', 'h3' ]
+    },
     // Theme related configurations.[自定义主题]
     themeConfig: {
         logo: '/logo.svg',
@@ -30,7 +33,7 @@ export default {
             {
                 text: '💻 前端',
                 items: [
-                    { text: '📖 如何制作网站？', link: '../FrontEnd/FrontEnd/index.md' },
+                    { text: '🖥️ 网站制作教程', link: '../FrontEnd/FrontEnd/index.md' },
                     { text: '🟧 HTML5', link: '../FrontEnd/HTML/index.md' },
                     { text: '🟥 CSS3', link: '../FrontEnd/CSS/index.md' },
                     { text: '🟨 JavaScript', link: '../FrontEnd/JavaScript/index.md' },
@@ -39,7 +42,7 @@ export default {
                 ]
             },
             {
-                text: '🖥️ 后端',    
+                text: '🧮 后端',    
                 items: [
                     { text: '⬜ Node', link: '../BackEnd/Node/index.md' },
                     { text: '⬛ Express', link: '../BackEnd/Express/index.md' },
@@ -49,9 +52,9 @@ export default {
             {
                 text: '🕸️ 爬虫',
                 items: [
-                    { text: '🐍 Python', link: '../Python/Python/index.md' },
+                    { text: '🐍 Python', link: '../Python/Python/Python前导.md' },
                     { text: '🕸️ 爬虫', link: '../Python/Spider/index.md' },
-                    { text: '🍃 Sqlite', link: '../Python/Sqlite/index.md' },
+                    { text: '🍃 SQLite', link: '../Python/Sqlite/index.md' },
                 ]
             },
             {
@@ -74,13 +77,13 @@ export default {
                     ]
                 },
             ],
-            '/FrontEnd': [
+            '/FrontEnd/': [
                 {
-                    text: '💻 编程',
+                    text: '💻「零基础」',
                     collapsible: true,
                     items: [
                         { text: '💻 如何制作网站?', link: '/FrontEnd/FrontEnd/index.md' }, 
-                        { text: '💻 小试牛刀 🔪', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
+                        { text: '💻 Hello World', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
                         { text: '💻 趁手兵器 ⚔️', link: '/FrontEnd/FrontEnd/Weapons.md' }, 
                         { text: '💻 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' }, 
                     ]
@@ -90,6 +93,7 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟧 HTML', link: '/FrontEnd/HTML/' }, 
+                        { text: '🟧 HTML笔记', link: '/FrontEnd/HTML/Note' }, 
                     ]
                 },
                 {
@@ -97,6 +101,8 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟥 CSS', link: '/FrontEnd/CSS/' }, 
+                        { text: '🟥 CSS3', link: '/FrontEnd/CSS/CSS3' }, 
+                        { text: '🟥 ', link: '/FrontEnd/CSS/CSS3' }, 
                     ]
                 },
                 {
@@ -139,10 +145,38 @@ export default {
             ],
             '/Python/': [
                 {
-                    text: '🐍 Python',
+                    text: '🐍 Python 学习',
                     collapsible: true,
                     items: [
-                        { text: '🐍 Python', link: '/Python/Python/index.md' }, 
+                        { text: '🐍 Python前导', link: '/Python/Python/Python前导.md' }, 
+                    ]
+                },
+                {
+                    text: '🐍 Python 笔记',
+                    collapsible: true,
+                    items: [
+                        { text: '🐍 数据类型', link: '/Python/Python/PythonNote_数据类型.md' }, 
+                        { text: '🐍 变量', link: '/Python/Python/PythonNote_变量.md' }, 
+                        { text: '🐍 字符串', link: '/Python/Python/PythonNote_字符串.md' }, 
+                        { text: '🐍 数组 - list', link: '/Python/Python/PythonNote_数组.md' }, 
+                        { text: '🐍 元组 - tuple ', link: '/Python/Python/PythonNote_元组.md' }, 
+                        { text: '🐍 条件判断', link: '/Python/Python/PythonNote_条件判断.md' }, 
+                        { text: '🐍 循环 / 迭代', link: '/Python/Python/PythonNote_循环.md' }, 
+                        { text: '🐍 dict和set', link: '/Python/Python/PythonNote_dict和set.md' }, 
+                        { text: '🐍 函数', link: '/Python/Python/PythonNote_函数.md' }, 
+                        { text: '🐍 数据类型转换', link: '/Python/Python/PythonNote_数据类型转换.md' }, 
+                        { text: '🐍 列表生成式 / 生成器', link: '/Python/Python/PythonNote_列表生成式.md' }, 
+                        { text: '🐍 异常处理 try', link: '/Python/Python/PythonNote_异常处理.md' }, 
+                        { text: '🐍 Python - JSON', link: '/Python/Python/PythonNote_JSON.md' }, 
+                        { text: '🐍 with ... as ...', link: '/Python/Python/PythonNote_WithAs' }, 
+                        { text: '🐽 未完待续...', link: '/Python/Python/未完待续' }, 
+                    ]
+                },
+                {
+                    text: '🐍 Python - File',
+                    collapsible: true,
+                    items: [
+                        { text: '🐍 文件操作', link: '/Python/Python/PythonFile' }, 
                     ]
                 },
                 {
@@ -153,10 +187,10 @@ export default {
                     ]
                 },
                 {
-                    text: '🍃 Sqlite',
+                    text: '🍃 SQLite',
                     collapsible: true,
                     items: [
-                        { text: '🍃 Sqlite', link: '/Python/Sqlite/index.md' }, 
+                        { text: '🍃 SQLite 安装', link: '/Python/Sqlite/index.md' }, 
                     ]
                 }
             ],

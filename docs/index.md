@@ -10,7 +10,7 @@ hero:
       text: 🐤 关于这个博客 - 小黄鸭
       link: /About/AboutDuck
     - theme: alt
-      text: 🥚 网页制作教程
+      text: 🥚 网站制作教程
       link: /FrontEnd/FrontEnd/index
       
 
@@ -18,10 +18,10 @@ features:
   - icon: 💻
     title: 💻 前端 - FrontEnd
     details: 🟧HTML、🟥CSS、🟨Js、🟦Ts、🟩Vue...
-  - icon: 🖥️
-    title: 🖥️ 后端 - BackEnd |📦 数据库 - DataBase 
+  - icon: 🧮
+    title: 🧮 后端 - BackEnd |📦 数据库 - DataBase 
     details: ⬜Node + ⬛Express + 🐬MySQL...
   - icon: 🕸️
     title: 🕸️ 爬虫 - Seventeen-A 
-    details: 🐍Python 🍃Sqlite...
+    details: 🐍Python 🍃SQLite...
 ---
