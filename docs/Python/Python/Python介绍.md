@@ -11,7 +11,7 @@
 :::
 
 在学习【爬虫】前先需要以下基础👇
-1. [HTML](../../FrontEnd/HTML/index.md) 关于标签、标签属性等知识
+1. [HTML](../../FrontEnd/HTML/HTMLNote.md) 关于标签、标签属性等知识
 2. Python
 
 ## Python 学习推荐：
