@@ -19,6 +19,20 @@ export default {
                 src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             }
         ]
+        // 添加百度统计
+        [
+            "script",
+            {},
+            `
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?bc1fc3ec2768667d3746b56f7d411ddd";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+            `
+        ]
     ],
     
     markdown: {
