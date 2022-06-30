@@ -18,7 +18,7 @@ export default {
                 async: true,
                 src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             }
-        ]
+        ],
         // 添加百度统计
         [
             "script",
