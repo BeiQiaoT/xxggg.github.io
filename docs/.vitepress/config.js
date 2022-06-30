@@ -33,9 +33,9 @@ export default {
             {
                 text: '💻 前端',
                 items: [
-                    { text: '🖥️ 网站制作教程', link: '../FrontEnd/FrontEnd/index.md' },
-                    { text: '🟧 HTML5', link: '../FrontEnd/HTML/index.md' },
-                    { text: '🟥 CSS3', link: '../FrontEnd/CSS/index.md' },
+                    { text: '🖥️ 网站制作入门', link: '../FrontEnd/FrontEnd/index.md' },
+                    { text: '🟧 HTML', link: '../FrontEnd/HTML/HTMLNote.md' },
+                    { text: '🟥 CSS', link: '../FrontEnd/CSS/CSS_Note.md' },
                     { text: '🟨 JavaScript', link: '../FrontEnd/JavaScript/index.md' },
                     { text: '🟦 TypeScript', link: '../FrontEnd/TypeScript/index.md' },
                     { text: '🟩 Vue', link: '../FrontEnd/Vue/index.md' },
@@ -52,13 +52,13 @@ export default {
             {
                 text: '🕸️ 爬虫',
                 items: [
-                    { text: '🐍 Python', link: '../Python/Python/Python前导.md' },
+                    { text: '🐍 Python', link: '../Python/Python/Python介绍.md' },
                     { text: '🕸️ 爬虫', link: '../Python/Spider/index.md' },
                     { text: '🍃 SQLite', link: '../Python/Sqlite/index.md' },
                 ]
             },
             {
-                text: '👨‍💻 关于我',
+                text: '👨‍💻 关于',
                 items: [
                     { text: '👨‍💻 关于我', link: '../About/AboutMe' },
                     { text: '🐤 小黄鸭', link: '../About/AboutDuck' },
@@ -77,7 +77,7 @@ export default {
                     ]
                 },
             ],
-            '/FrontEnd/': [
+            '/FrontEnd/FrontEnd': [
                 {
                     text: '💻「零基础」',
                     collapsible: true,
@@ -85,23 +85,66 @@ export default {
                         { text: '💻 如何制作网站?', link: '/FrontEnd/FrontEnd/index.md' }, 
                         { text: '💻 Hello World', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
                         { text: '💻 趁手兵器 ⚔️', link: '/FrontEnd/FrontEnd/Weapons.md' }, 
-                        { text: '💻 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' }, 
+                        { text: '💻 介绍前端三剑客', link: '/FrontEnd/FrontEnd/introduce' }, 
+                        { text: '💻 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' },
                     ]
                 },
+            ],
+            '/FrontEnd/HTML': [
+                
                 {
                     text: '🟧 HTML',
                     collapsible: true,
                     items: [
-                        { text: '🟧 HTML', link: '/FrontEnd/HTML/' }, 
+                        { text: '🟧 HTML 笔记', link: '/FrontEnd/HTML/HTMLNote' }, 
                     ]
                 },
+                {
+                    text: '🟧 HTML5 笔记',
+                    collapsible: true,
+                    items: [
+                        { text: '🟧 HTML5 Web存储', link: '/FrontEnd/HTML/HTML5webstorage' }, 
+                    ]
+                },
+            ],
+            '/FrontEnd/CSS': [
+                
                 {
                     text: '🟥 CSS',
                     collapsible: true,
                     items: [
-                        { text: '🟥 CSS', link: '/FrontEnd/CSS/' }, 
+                        { text: '🟥 CSS 笔记', link: '/FrontEnd/CSS/CSS_Note' }, 
+                        { text: '🟥 CSS 代码片段', link: '/FrontEnd/CSS/CSS_CodeSnippet' }, 
+                        { text: '🟥 CSS 选择器', link: '/FrontEnd/CSS/CSS_selector' }, 
+                        { text: '🟥 雪碧图 - Sprite', link: '/FrontEnd/CSS/CSS_Sprite' }, 
                     ]
                 },
+                {
+                    text: '🟥 CSS3',
+                    collapsible: true,
+                    items: [
+                        { text: '🟥 CSS3 笔记', link: '/FrontEnd/CSS/CSS3_Note' }, 
+                        { text: '🟥 CSS3 兼容', link: '/FrontEnd/CSS/CSS3_Compatibility' }, 
+                        { text: '🟥 CSS3 文本', link: '/FrontEnd/CSS/CSS3_Text' }, 
+                        { text: '🟥 CSS3 背景图片', link: '/FrontEnd/CSS/CSS3_background' }, 
+                        { text: '🟥 CSS3 变形', link: '/FrontEnd/CSS/CSS3_transform' }, 
+                        { text: '🟥 CSS3 动画', link: '/FrontEnd/CSS/CSS3_animation' }, 
+                        { text: '🟥 CSS3 过渡', link: '/FrontEnd/CSS/CSS3_transition' }, 
+                        { text: '🟥 媒体类型 - media', link: '/FrontEnd/CSS/CSS3_Media' }, 
+                    ]
+                },
+                {
+                    text: '🟥 布局',
+                    collapsible: true,
+                    items: [
+                        { text: '🟥 『居中』 ', link: '/FrontEnd/CSS/layout_Center' }, 
+                        { text: '🟥 『Flex』 ', link: '/FrontEnd/CSS/layout_Flex' }, 
+                        { text: '🟥 『Grid』 ', link: '/FrontEnd/CSS/layout_Grid' }, 
+                    ]
+                },
+            ],
+            '/FrontEnd/JavaScript': [
+               
                 {
                     text: '🟨 JavaScript',
                     collapsible: true,
@@ -109,6 +152,9 @@ export default {
                         { text: '🟨 JavaScript', link: '/FrontEnd/JavaScript/' }, 
                     ]
                 },
+                
+            ],
+            '/FrontEnd/TypeScript': [
                 {
                     text: '🟦 TypeScript',
                     collapsible: true,
@@ -140,21 +186,23 @@ export default {
                     ]
                 },
             ],
-            '/Python/': [
+            '/Python/Python': [
                 {
                     text: '🐍 Python 学习',
                     collapsible: true,
                     items: [
-                        { text: '🐍 Python前导', link: '/Python/Python/Python前导.md' }, 
+                        { text: '🐍 Python 介绍', link: '/Python/Python/Python介绍.md' }, 
+                        { text: '🐍 Python 安装', link: '/Python/Python/Python安装.md' }, 
                     ]
                 },
                 {
                     text: '🐍 Python 笔记',
                     collapsible: true,
                     items: [
+                        { text: '🐍 Python 零碎笔记', link: '/Python/Python/PythonNote.md' }, 
                         { text: '🐍 数据类型', link: '/Python/Python/PythonNote_数据类型.md' }, 
                         { text: '🐍 变量', link: '/Python/Python/PythonNote_变量.md' }, 
-                        { text: '🐍 字符串', link: '/Python/Python/PythonNote_字符串.md' }, 
+                        { text: '🐍 字符串方法', link: '/Python/Python/PythonNote_字符串.md' }, 
                         { text: '🐍 数组 - list', link: '/Python/Python/PythonNote_数组.md' }, 
                         { text: '🐍 元组 - tuple ', link: '/Python/Python/PythonNote_元组.md' }, 
                         { text: '🐍 条件判断', link: '/Python/Python/PythonNote_条件判断.md' }, 
@@ -176,6 +224,24 @@ export default {
                         { text: '🐍 文件操作', link: '/Python/Python/PythonFile' }, 
                     ]
                 },
+            ],
+            '/Python/Spider': [
+                {
+                    text: '🕸️ 爬虫',
+                    collapsible: true,
+                    items: [
+                        { text: '🕸️ 爬虫', link: '/Python/Spider/index.md' }, 
+                    ]
+                },
+                {
+                    text: '🍃 SQLite',
+                    collapsible: true,
+                    items: [
+                        { text: '🍃 SQLite 安装', link: '/Python/Sqlite/index.md' }, 
+                    ]
+                }
+            ],
+            '/Python/Sqlite': [
                 {
                     text: '🕸️ 爬虫',
                     collapsible: true,
@@ -192,14 +258,24 @@ export default {
                 }
             ],
             '/About/': [
-                {
+                {   
+                    text: '⭐ 关于',
+                    collapsible: true,
                     items: [
-                        // This shows `/config/index.md` page.
-                        { text: '👨‍💻 关于我', link: '/About/AboutMe' }, // /config/index.md
+                        { text: '🧑‍💻‍ 关于我', link: '/About/AboutMe' }, // /config/index.md
                         { text: '🐤 小黄鸭', link: '/About/AboutDuck' }, // /config/three.md
-                         
                     ]
-                }
+                },
+                // {   
+                //     text: '🧑‍💻 程序员的故事',
+                //     collapsible: true,
+                //     items: [
+                //         { text: '小黄鸭调试法', link: '/About/AboutMe' }, 
+                //         { text: 'HelloWorld', link: '/About/AboutDuck' }, 
+                //         { text: '关于master和main', link: '/About/AboutDuck' }, 
+                //         { text: '尤雨溪懂个锤子Vue', link: '/About/AboutDuck' }, 
+                //     ]
+                // }
             ],
         },
         //社交链接
