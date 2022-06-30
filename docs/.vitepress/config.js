@@ -32,12 +32,27 @@ export default {
                 s.parentNode.insertBefore(hm, s);
             })();
             `
+        ],
+        // 添加谷歌统计
+        [
+            "script",
+            {
+                src: "https://www.googletagmanager.com/gtag/js?id=G-ZLSGRZRXCN",
+                async: true
+            }
+        ],
+        [
+            "script",
+            {},
+            `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-ZLSGRZRXCN');
+            `
         ]
     ],
-    
-    markdown: {
-        extractHeaders: [ 'h2', 'h3' ]
-    },
     // Theme related configurations.[自定义主题]
     themeConfig: {
         logo: '/logo.svg',
