@@ -16,7 +16,7 @@ npm init
 - keywords: //一个字符串数组，方便别人搜索到本模块
 - author: XXGGG //作者
 - license: (ISC) //许可证
-## 🟨 新建index.js
+## 🟨 新建 `index.js`
 随便写一个功能:
 ```javascript
 function xgadd(a,b) {
@@ -26,7 +26,7 @@ function xgadd(a,b) {
 
 export {xgadd}
 ```
-## 🟩 新建README.md
+## 🟩 新建 `README.md`
 ```markdown
 # xg-add
 功能描述
@@ -37,7 +37,7 @@ export {xgadd}
 
 ...
 ```
-## 🟦 登录npm
+## 🟦 登录 npm
 - 登录时需要注意切换为npm官方镜像，而不是淘宝镜像！
 
 ```shell
@@ -53,13 +53,13 @@ npm login
 3. 输入邮箱
 4. 填入发给邮箱的一串临时密码
 
-## 🟪 上传npm
+## 🟪 上传 npm
 ```shell
 npm publish
 ```
 
 - 上传有可能会出错，有可能是因为包名相同，换个包的名字就可以了！
-## 🟫 更新npm
+## 🟫 更新 npm
 当你的包有更新内容，需要上传<br />同样是使用`npm publish`命令，但是需要先去到`package.json`修改版本号<br />`"version":"0.0.2"`改高一个版本
 ```json
 {
@@ -74,7 +74,7 @@ npm publish
   "license": "ISC"
 }
 ```
-## ⬛ 使用npm
+## ⬛ 使用 npm
 ```shell
 npm install xgadd
 ```
@@ -89,7 +89,7 @@ console.log(xxg) //2
 
 - XXGGG的npm：[https://www.npmjs.com/~xxggg](https://www.npmjs.com/~xxggg)
 - XXGGG的Github：[https://github.com/XXGGG](https://github.com/XXGGG)
-## 🟢🟡🔴补充【index.d.ts】
+## 🔳 补充【index.d.ts】
 现在很多项目都是使用TypeScript，所以在把包上传上去给别人用的时候最好附加多一个关于typerscipt的类型声明文件【index.d.ts】
 ```typescript
 //与index.js 同目录 同名的 index.d.ts

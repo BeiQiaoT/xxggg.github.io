@@ -15,13 +15,22 @@ hero:
       
 
 features:
+  - icon: 📖
+    title: 📖 笔记 - Note
+    details: 📚旧笔记整理ing... 持续更新每篇笔记的内容
   - icon: 💻
     title: 💻 前端 - FrontEnd
-    details: 🟧HTML、🟥CSS、🟨Js、🟦Ts、🟩Vue...
+    details: 🟧HTML 🟥CSS 🟨Js 🟦Ts 🟩Vue
   - icon: 🧮
-    title: 🧮 后端 - BackEnd |📦 数据库 - DataBase 
-    details: ⬜Node + ⬛Express + 🐬MySQL...
+    title: 🧮 后端 - BackEnd
+    details: ⬜Node + ⬛Express + 🐬MySQL
+  - icon: 🧊
+    title: 🧊 部署 - Deploy
+    details: 🥦Nginx....
+  - icon: 📦
+    title: 📦 数据库 - DataBase
+    details: 🐬MySQL 🍃SQLite
   - icon: 🕸️
     title: 🕸️ 爬虫 - Seventeen-A 
-    details: 🐍Python 🍃SQLite...
+    details: 🐍Python + 🍃SQLite
 ---

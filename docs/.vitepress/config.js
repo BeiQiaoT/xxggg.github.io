@@ -64,7 +64,10 @@ export default {
                 items: [
                     { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
                     { text: '🧶 Yarn', link: '../Note/Yarn.md' },
-                    // { text: '♾️ VScode', link: '../Note/VScode.md' },
+                    { text: '🎒 npm', link: '../Note/npm.md' },
+                    { text: '♾️ VScode', link: '../Note/VScode.md' },
+                    { text: '⭕ Apifox', link: '../Note/VScode_snippet.md' },
+                    { text: '📚 其他笔记', link: '../Note/SVG.md' },
                 ]
             },
             {
@@ -105,7 +108,7 @@ export default {
                 items: [
                     { text: '👨‍💻 关于我', link: '../About/AboutMe' },
                     { text: '🐤 小黄鸭', link: '../About/AboutDuck' },
-                    { text: '🍥 【旧】的博客', link: 'https://xxggg.github.io/XXG-Blog' },
+                    { text: '🍥 【旧】的博客', link: 'https://xxggg.gitee.io/' },
                 ]
             }
         ],
@@ -113,27 +116,48 @@ export default {
         sidebar: {
             '/Note': [
                 {
-                    text: '⌨️ 编程',
+                    text: '⌨️ 〖编程〗',
                     collapsible: true,
                     items: [
-                        { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
-                        { text: '🐈‍⬛ Git 绑定两个远程库', link: '../Note/Git_remote.md' },
+                        { text: '🐈‍⬛ Git', link: '/Note/Git.md' },
+                        { text: '🐈‍⬛ Git 绑定两个远程库', link: '/Note/Git_remote.md' },
                         { text: '🧶 Yarn', link: '/Note/Yarn.md' },
                         { text: '🎒 npm、nrm、nvm、npx', link: '/Note/npm.md' },
                         { text: '🎒 自己写npm包', link: '/Note/npm_create.md' },
                     ]
                 },
+                {
+                    text: '🧰 〖编程工具〗',
+                    collapsible: true,
+                    items: [
+                        { text: '♾️ VScode 插件推荐', link: '/Note/VScode.md' },
+                        { text: '♾️ VScode 添加代码片段', link: '/Note/VScode_snippet.md' },
+                        { text: '⭕ ApiFox 接口调试软件', link: '/Note/ApiFox.md' },
+                        { text: '✌️ Navicat 数据库管理软件', link: '/Note/Navicat.md' },
+                    ]
+                },
+                {
+                    text: '📔 〖小笔记〗',
+                    collapsible: true,
+                    items: [
+                        { text: '⭐ SVG的使用方式', link: '/Note/SVG.md' },
+                        { text: '🗝️ SSH - 公钥 私钥', link: '/Note/SSH.md' },
+                        { text: '🗺️ Shell查询本地ip', link: '/Note/Shell_ip.md' },
+                        { text: '🤳 Github pages 自定义域名', link: '/Note/GithubPagesName.md' },
+                        { text: '🌓 js/css识别系统是否暗黑模式', link: '/Note/Check_Dark.md' },
+                    ]
+                },
             ],
             '/FrontEnd/FrontEnd': [
                 {
-                    text: '💻「零基础」',
+                    text: '🍳〖零基础〗',
                     collapsible: true,
                     items: [
                         { text: '💻 如何制作网站?', link: '/FrontEnd/FrontEnd/index.md' }, 
-                        { text: '💻 Hello World', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
-                        { text: '💻 趁手兵器 ⚔️', link: '/FrontEnd/FrontEnd/Weapons.md' }, 
-                        { text: '💻 介绍前端三剑客', link: '/FrontEnd/FrontEnd/introduce' }, 
-                        { text: '💻 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' },
+                        { text: '👋 Hello World', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
+                        { text: '⚔️ 趁手兵器', link: '/FrontEnd/FrontEnd/Weapons.md' }, 
+                        { text: '🎗️ 介绍前端三剑客', link: '/FrontEnd/FrontEnd/introduce' }, 
+                        { text: '🚧 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' },
                     ]
                 },
             ],
