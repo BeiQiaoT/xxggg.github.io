@@ -119,6 +119,8 @@ export default {
                         { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
                         { text: '🐈‍⬛ Git 绑定两个远程库', link: '../Note/Git_remote.md' },
                         { text: '🧶 Yarn', link: '/Note/Yarn.md' },
+                        { text: '🎒 npm、nrm、nvm、npx', link: '/Note/npm.md' },
+                        { text: '🎒 自己写npm包', link: '/Note/npm_create.md' },
                     ]
                 },
             ],
