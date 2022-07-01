@@ -60,6 +60,14 @@ export default {
         //导航栏
         nav: [
             {
+                text: '📖 笔记',
+                items: [
+                    { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
+                    { text: '🧶 Yarn', link: '../Note/Yarn.md' },
+                    // { text: '♾️ VScode', link: '../Note/VScode.md' },
+                ]
+            },
+            {
                 text: '💻 前端',
                 items: [
                     { text: '🖥️ 网站制作入门', link: '../FrontEnd/FrontEnd/index.md' },
@@ -76,6 +84,12 @@ export default {
                     { text: '⬜ Node', link: '../BackEnd/Node/index.md' },
                     { text: '⬛ Express', link: '../BackEnd/Express/index.md' },
                     { text: '🐬 MySQL', link: '../BackEnd/MySQL/index.md' },
+                ]
+            },
+            {
+                text: '🧊 部署',    
+                items: [
+                    { text: '🌩️ VitePress', link: '../Deploy/VitePress_ico.md' },
                 ]
             },
             {
@@ -97,12 +111,14 @@ export default {
         ],
         //侧边栏
         sidebar: {
-            '/FrontEnd/Vue': [
+            '/Note': [
                 {
-                    text: '🟩 Vue',
+                    text: '⌨️ 编程',
                     collapsible: true,
                     items: [
-                        { text: '🟩 Vue', link: '/FrontEnd/Vue/' }, 
+                        { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
+                        { text: '🐈‍⬛ Git 绑定两个远程库', link: '../Note/Git_remote.md' },
+                        { text: '🧶 Yarn', link: '/Note/Yarn.md' },
                     ]
                 },
             ],
@@ -120,7 +136,6 @@ export default {
                 },
             ],
             '/FrontEnd/HTML': [
-                
                 {
                     text: '🟧 HTML',
                     collapsible: true,
@@ -192,6 +207,15 @@ export default {
                     ]
                 },
             ],
+            '/FrontEnd/Vue': [
+                {
+                    text: '🟩 Vue',
+                    collapsible: true,
+                    items: [
+                        { text: '🟩 Vue', link: '/FrontEnd/Vue/' }, 
+                    ]
+                },
+            ],
             '/BackEnd/': [
                 {
                     text: '⬜ Node',
@@ -212,6 +236,15 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🐬 MySQL', link: '/BackEnd/MySQL/index.md' }, 
+                    ]
+                },
+            ],
+            '/Deploy/': [
+                {
+                    text: '🌩️ VitePress',
+                    collapsible: true,
+                    items: [
+                        { text: '🌩️ 标签页图标问题', link: '/Deploy/VitePress_ico.md' }, 
                     ]
                 },
             ],
