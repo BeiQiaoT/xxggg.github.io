@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.9049e128.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Note/Git2.md","lastUpdated":1656664651000}'),r={name:"Note/Git2.md"};function o(s,c,n,i,p,d){return a(),e("div")}var f=t(r,[["render",o]]);export{m as __pageData,f as default};
