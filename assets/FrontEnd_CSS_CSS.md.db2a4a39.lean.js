@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s,a as o}from"./app.0c1a17b6.js";const m=JSON.parse('{"title":"\u{1F7E5} CSS","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/CSS/CSS.md","lastUpdated":1656801632000}'),r={name:"FrontEnd/CSS/CSS.md"},a=o("",2),c=[a];function n(l,_,i,S,d,p){return s(),e("div",null,c)}var u=t(r,[["render",n]]);export{m as __pageData,u as default};

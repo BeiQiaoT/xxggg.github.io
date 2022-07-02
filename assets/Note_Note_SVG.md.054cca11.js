@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.5594fcad.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Note/Note_SVG.md","lastUpdated":1656706788000}'),o={name:"Note/Note_SVG.md"};function r(s,c,n,_,p,d){return a(),t("div")}var f=e(o,[["render",r]]);export{m as __pageData,f as default};
