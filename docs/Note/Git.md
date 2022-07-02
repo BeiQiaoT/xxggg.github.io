@@ -39,24 +39,25 @@ git config --global user.email "你的邮@箱地址.com"
 git init        
 ```
 ### 🪢 绑定远程仓库
+绑定你GitHub上的仓库
 ```shell
 git remote add github <你的项目地址>
 ```
 ### ➕ 添加到暂存区
-`git add .` 以后，备份文件就会变成在仓库里“暂存的修改”   
-等添加完备份说明，下次push提交上去的就是这些文件。
+输入`git add .` 后，修改过的文件就会暂时先到“暂存区”     
 ```shell
 git add <你要备份的文件名>
 git add .  
 ```
-`.` 表示添加全部修改过的文件到暂存区
+`.` 表示添加全部修改过的文件
 
 ### ⬆️ 提交到本地仓库-附说明
-add 和 commit 都是提交到本地仓库的 push才是推向远程仓库的
+commit会把包括在“暂存区”的文件一起，备份出一个版本   
 ```shell
 git commit -m '说明'
 ```
 ### ⏏️ 推送到远程仓库
+push 会把你备份好的所有版本推送到GitHub上。  
 ```shell
 git push
 ```
@@ -67,6 +68,7 @@ git push -u origin main
 ```
 
 ### 📩 克隆远程仓库到本地
+把GitHub上的代码拉下来，无论是自己的还是别人的都可以用克隆...   
 ```shell
 git clone <远程代码库地址>
 git clone git@github.com:XXGGG/test.git

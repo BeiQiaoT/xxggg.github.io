@@ -66,7 +66,7 @@ export default {
                     { text: '🧶 Yarn', link: '../Note/Yarn.md' },
                     { text: '🎒 npm', link: '../Note/npm.md' },
                     { text: '♾️ VScode', link: '../Note/VScode.md' },
-                    { text: '⭕ Apifox', link: '../Note/VScode_snippet.md' },
+                    { text: '⭕ Apifox', link: '../Note/ApiFox.md' },
                     { text: '📚 其他笔记', link: '../Note/SVG.md' },
                 ]
             },
@@ -74,7 +74,7 @@ export default {
                 text: '💻 前端',
                 items: [
                     { text: '🖥️ 网站制作入门', link: '../FrontEnd/FrontEnd/index.md' },
-                    { text: '🟧 HTML', link: '../FrontEnd/HTML/HTMLNote.md' },
+                    { text: '🟧 HTML', link: '../FrontEnd/HTML/HTML_Note.md' },
                     { text: '🟥 CSS', link: '../FrontEnd/CSS/CSS_Note.md' },
                     { text: '🟨 JavaScript', link: '../FrontEnd/JavaScript/index.md' },
                     { text: '🟦 TypeScript', link: '../FrontEnd/TypeScript/index.md' },
@@ -132,8 +132,8 @@ export default {
                     items: [
                         { text: '♾️ VScode 插件推荐', link: '/Note/VScode.md' },
                         { text: '♾️ VScode 添加代码片段', link: '/Note/VScode_snippet.md' },
-                        { text: '⭕ ApiFox 接口调试软件', link: '/Note/ApiFox.md' },
-                        { text: '✌️ Navicat 数据库管理软件', link: '/Note/Navicat.md' },
+                        { text: '⭕ ApiFox', link: '/Note/ApiFox.md' },
+                        { text: '✌️ Navicat', link: '/Note/Navicat.md' },
                     ]
                 },
                 {
@@ -166,14 +166,14 @@ export default {
                     text: '🟧 HTML',
                     collapsible: true,
                     items: [
-                        { text: '🟧 HTML 笔记', link: '/FrontEnd/HTML/HTMLNote' }, 
+                        { text: '🟧 HTML 笔记', link: '/FrontEnd/HTML/HTML_Note' }, 
                     ]
                 },
                 {
                     text: '🟧 HTML5 笔记',
                     collapsible: true,
                     items: [
-                        { text: '🟧 HTML5 Web存储', link: '/FrontEnd/HTML/HTML5webstorage' }, 
+                        { text: '🟧 HTML5 Web存储', link: '/FrontEnd/HTML/HTML5_webstorage' }, 
                     ]
                 },
             ],
@@ -220,6 +220,35 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟨 JavaScript', link: '/FrontEnd/JavaScript/' }, 
+                        { text: '🟨 JS 零碎笔记', link: '/FrontEnd/JavaScript/JS_Note.md' }, 
+                        { text: '🟨 JS 代码片段', link: '/FrontEnd/JavaScript/JS_CodeSnippet.md' }, 
+                        { text: '🟨 JS 事件', link: '/FrontEnd/JavaScript/JS_events.md' }, 
+                        { text: '🟨 JS Map 和 Set', link: '/FrontEnd/JavaScript/JS_MapSet.md' }, 
+                        { text: '➕ Math数学方法', link: '/FrontEnd/JavaScript/JS_Math.md' }, 
+                        { text: '⏰ Date日期/时间', link: '/FrontEnd/JavaScript/JS_Date.md' }, 
+                    ]
+                },
+                {
+                    text: '💛 JS - 方法',
+                    collapsible: true,
+                    items: [
+                        { text: '💛 JS 数组方法', link: '/FrontEnd/JavaScript/JS_Array.md' }, 
+                        { text: '💛 JS 遍历数组', link: '/FrontEnd/JavaScript/JS_ArrayEach.md' }, 
+                        { text: '💛 JS 数组查找', link: '/FrontEnd/JavaScript/JS_数组查找.md' }, 
+                        { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_数组删除.md' }, 
+                        { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_数组批量删除.md' }, 
+                        { text: '💛 JS 对象方法', link: '/FrontEnd/JavaScript/JS_对象方法.md' }, 
+                        { text: '💛 JS 字符串方法', link: '/FrontEnd/JavaScript/JS_字符串方法.md' }, 
+                        { text: '💛 JS 类型转换', link: '/FrontEnd/JavaScript/JS_类型转换.md' }, 
+                    ]
+                },
+                {
+                    text: '🟡 ES6',
+                    collapsible: true,
+                    items: [
+                        { text: '🟡 ES6', link: '/FrontEnd/JavaScript/JS_ES6.md' }, 
+                        { text: '🟡 JS 模块化', link: '/FrontEnd/JavaScript/JS_module.md' }, 
+                        { text: '🟡 JS 深复制-浅复制', link: '/FrontEnd/JavaScript/JS_Copy.md' }, 
                     ]
                 },
                 
