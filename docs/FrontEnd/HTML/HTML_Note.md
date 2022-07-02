@@ -1,11 +1,6 @@
 # 🟧 HTML 笔记
 
-
-::: tip HTML 学习推荐
-零基础先不要学习HTML5的新内容,先学习HTML的基础标签
-1. 菜鸟教程-HTML：[https://www.runoob.com/html/html-tutorial.html](https://www.runoob.com/html/html-tutorial.html)
-::: 
-### 常用标签属性
+## 常用标签属性
 ```html
 <input placeholder="预设"></input>
 
@@ -13,7 +8,7 @@
 ```
 
 
-### 锚
+## 锚
 ```html
 <a id="tips">提示部分</a>
 
@@ -21,7 +16,7 @@
 ```
 
 
-### 占位符
+## 占位符
 ```html
 &#12288; //中文汉字占位符
 &nbsp; //空格占位符
@@ -29,14 +24,14 @@
 
 
 
-### 网站图标
+## 网站图标
 ```html
 <link  href="favicon.ico"/>//网站图标
 ```
 
 
 
-### Meta
+## Meta
 ```html
 <meta name="keywords" content="html"> //为搜索引擎定义关键词
 <meta name="description" content="免费">//描述内容

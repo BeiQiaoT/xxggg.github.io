@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name:  🐤小黄鸭🐤
-  text:  欢迎来到我的博客
-  tagline: 我是谢夏戈，在这里，我尽量摆脱「知识诅咒」，根据「费曼学习法」「小黄鸭调试法」的方式，以初学者的角度来记录以及分享我的笔记和学习路径。
+  name:  🐤小黄鸭
+  text:  
+  tagline: 欢迎来到我的博客 - 小黄鸭，我是谢夏戈。此技术博客分门别类了我的笔记，学习路径，教程推荐。
   actions:
     - theme: brand
       text: 🐤 关于这个博客 - 小黄鸭
       link: /About/AboutDuck
     - theme: alt
       text: 🥚 零基础 - 网站制作入门
-      link: /FrontEnd/FrontEnd/index
+      link: /FrontEnd/FrontEnd/Tutorial
       
 
 features:

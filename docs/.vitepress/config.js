@@ -65,7 +65,7 @@ export default {
                     { text: '🐈‍⬛ Git', link: '../Note/Git.md' },
                     { text: '🧶 Yarn', link: '../Note/Yarn.md' },
                     { text: '🎒 npm', link: '../Note/npm.md' },
-                    { text: '♾️ VScode', link: '../Note/VScode.md' },
+                    { text: '♾️ VScode', link: '../Note/VSCode_plug.md' },
                     { text: '⭕ Apifox', link: '../Note/ApiFox.md' },
                     { text: '📚 其他笔记', link: '../Note/SVG.md' },
                 ]
@@ -73,34 +73,34 @@ export default {
             {
                 text: '💻 前端',
                 items: [
-                    { text: '🖥️ 网站制作入门', link: '../FrontEnd/FrontEnd/index.md' },
-                    { text: '🟧 HTML', link: '../FrontEnd/HTML/HTML_Note.md' },
-                    { text: '🟥 CSS', link: '../FrontEnd/CSS/CSS_Note.md' },
-                    { text: '🟨 JavaScript', link: '../FrontEnd/JavaScript/index.md' },
-                    { text: '🟦 TypeScript', link: '../FrontEnd/TypeScript/index.md' },
-                    { text: '🟩 Vue', link: '../FrontEnd/Vue/index.md' },
+                    { text: '🖥️ 网站制作入门', link: '../FrontEnd/FrontEnd/tutorial.md' },
+                    { text: '🟧 HTML', link: '../FrontEnd/HTML/HTML.md' },
+                    { text: '🟥 CSS', link: '../FrontEnd/CSS/CSS.md' },
+                    { text: '🟨 JavaScript', link: '../FrontEnd/JavaScript/JavaScript.md' },
+                    { text: '🟦 TypeScript', link: '../FrontEnd/TypeScript/TypeScript.md' },
+                    { text: '🟩 Vue', link: '../FrontEnd/Vue/Vue.md' },
                 ]
             },
             {
                 text: '🧮 后端',    
                 items: [
-                    { text: '⬜ Node', link: '../BackEnd/Node/index.md' },
-                    { text: '⬛ Express', link: '../BackEnd/Express/index.md' },
-                    { text: '🐬 MySQL', link: '../BackEnd/MySQL/index.md' },
+                    { text: '⬜ Node', link: '../BackEnd/Node/Node.md' },
+                    { text: '⬛ Express', link: '../BackEnd/Express/Express.md' },
+                    { text: '🐬 MySQL', link: '../BackEnd/MySQL/MySQL.md' },
                 ]
             },
             {
                 text: '🧊 部署',    
                 items: [
-                    { text: '🌩️ VitePress', link: '../Deploy/VitePress_ico.md' },
+                    { text: '🌩️ VitePress', link: '../Deploy/VitePress_favicon.md' },
                 ]
             },
             {
                 text: '🕸️ 爬虫',
                 items: [
-                    { text: '🐍 Python', link: '../Python/Python/Python介绍.md' },
-                    { text: '🕸️ 爬虫', link: '../Python/Spider/index.md' },
-                    { text: '🍃 SQLite', link: '../Python/Sqlite/index.md' },
+                    { text: '🐍 Python', link: '../WebSpider/Python/Python介绍.md' },
+                    { text: '🕸️ 爬虫', link: '../WebSpider/Spider/index.md' },
+                    { text: '🍃 SQLite', link: '../WebSpider/Sqlite/index.md' },
                 ]
             },
             {
@@ -120,7 +120,7 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🐈‍⬛ Git', link: '/Note/Git.md' },
-                        { text: '🐈‍⬛ Git 绑定两个远程库', link: '/Note/Git_remote.md' },
+                        { text: '🐈‍⬛ Git 绑定多个远程库', link: '/Note/Git_remote.md' },
                         { text: '🧶 Yarn', link: '/Note/Yarn.md' },
                         { text: '🎒 npm、nrm、nvm、npx', link: '/Note/npm.md' },
                         { text: '🎒 自己写npm包', link: '/Note/npm_create.md' },
@@ -130,8 +130,8 @@ export default {
                     text: '🧰 〖编程工具〗',
                     collapsible: true,
                     items: [
-                        { text: '♾️ VScode 插件推荐', link: '/Note/VScode.md' },
-                        { text: '♾️ VScode 添加代码片段', link: '/Note/VScode_snippet.md' },
+                        { text: '♾️ VSCode 插件推荐', link: '/Note/VSCode_plug.md' },
+                        { text: '♾️ VSCode 添加代码片段', link: '/Note/VSCode_snippet.md' },
                         { text: '⭕ ApiFox', link: '/Note/ApiFox.md' },
                         { text: '✌️ Navicat', link: '/Note/Navicat.md' },
                     ]
@@ -144,7 +144,8 @@ export default {
                         { text: '🗝️ SSH - 公钥 私钥', link: '/Note/SSH.md' },
                         { text: '🗺️ Shell查询本地ip', link: '/Note/Shell_ip.md' },
                         { text: '🤳 Github pages 自定义域名', link: '/Note/GithubPagesName.md' },
-                        { text: '🌓 js/css识别系统是否暗黑模式', link: '/Note/Check_Dark.md' },
+                        { text: '🌓 判断系统暗黑模式', link: '/Note/Judge_Dark.md' },
+                        { text: '😀 Iconfont', link: '/Note/Iconfont.md' },
                     ]
                 },
             ],
@@ -153,10 +154,10 @@ export default {
                     text: '🍳〖零基础〗',
                     collapsible: true,
                     items: [
-                        { text: '💻 如何制作网站?', link: '/FrontEnd/FrontEnd/index.md' }, 
+                        { text: '💻 如何制作网站?', link: '/FrontEnd/FrontEnd/tutorial.md' }, 
                         { text: '👋 Hello World', link: '/FrontEnd/FrontEnd/HelloWorld.md' }, 
                         { text: '⚔️ 趁手兵器', link: '/FrontEnd/FrontEnd/Weapons.md' }, 
-                        { text: '🎗️ 介绍前端三剑客', link: '/FrontEnd/FrontEnd/introduce' }, 
+                        { text: '🎗️ 介绍前端三剑客', link: '/FrontEnd/FrontEnd/Introduce' }, 
                         { text: '🚧 前端学习路径', link: '/FrontEnd/FrontEnd/LearningPath' },
                     ]
                 },
@@ -166,6 +167,7 @@ export default {
                     text: '🟧 HTML',
                     collapsible: true,
                     items: [
+                        { text: '🟧 HTML 基础', link: '/FrontEnd/HTML/HTML' }, 
                         { text: '🟧 HTML 笔记', link: '/FrontEnd/HTML/HTML_Note' }, 
                     ]
                 },
@@ -183,6 +185,7 @@ export default {
                     text: '🟥 CSS',
                     collapsible: true,
                     items: [
+                        { text: '🟥 CSS 基础', link: '/FrontEnd/CSS/CSS' }, 
                         { text: '🟥 CSS 笔记', link: '/FrontEnd/CSS/CSS_Note' }, 
                         { text: '🟥 CSS 代码片段', link: '/FrontEnd/CSS/CSS_CodeSnippet' }, 
                         { text: '🟥 CSS 选择器', link: '/FrontEnd/CSS/CSS_selector' }, 
@@ -219,7 +222,7 @@ export default {
                     text: '🟨 JavaScript',
                     collapsible: true,
                     items: [
-                        { text: '🟨 JavaScript', link: '/FrontEnd/JavaScript/' }, 
+                        { text: '🟨 JavaScript 基础', link: '/FrontEnd/JavaScript/JavaScript' }, 
                         { text: '🟨 JS 零碎笔记', link: '/FrontEnd/JavaScript/JS_Note.md' }, 
                         { text: '🟨 JS 代码片段', link: '/FrontEnd/JavaScript/JS_CodeSnippet.md' }, 
                         { text: '🟨 JS 事件', link: '/FrontEnd/JavaScript/JS_events.md' }, 
@@ -236,7 +239,7 @@ export default {
                         { text: '💛 JS 遍历数组', link: '/FrontEnd/JavaScript/JS_ArrayEach.md' }, 
                         { text: '💛 JS 数组查找', link: '/FrontEnd/JavaScript/JS_数组查找.md' }, 
                         { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_数组删除.md' }, 
-                        { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_数组批量删除.md' }, 
+                        { text: '💛 JS 数组批量删除', link: '/FrontEnd/JavaScript/JS_数组批量删除.md' }, 
                         { text: '💛 JS 对象方法', link: '/FrontEnd/JavaScript/JS_对象方法.md' }, 
                         { text: '💛 JS 字符串方法', link: '/FrontEnd/JavaScript/JS_字符串方法.md' }, 
                         { text: '💛 JS 类型转换', link: '/FrontEnd/JavaScript/JS_类型转换.md' }, 
@@ -258,7 +261,18 @@ export default {
                     text: '🟦 TypeScript',
                     collapsible: true,
                     items: [
-                        { text: '🟦 TypeScript', link: '/FrontEnd/TypeScript/' }, 
+                        { text: '🟦 TypeScript', link: '/FrontEnd/TypeScript/TypeScript' }, 
+                        // { text: '🟦 接口 - interface', link: '/FrontEnd/TypeScript/TS_interface' }, 
+                        // { text: '🟦 数组的类型', link: '/FrontEnd/TypeScript/TS_ArrayType' }, 
+                        // { text: '🟦 函数的类型', link: '/FrontEnd/TypeScript/TS_FunsionType' }, 
+                        // { text: '🟦 类型断言 - as', link: '/FrontEnd/TypeScript/TS_as' }, 
+                        // { text: '🟦 声明文件', link: '/FrontEnd/TypeScript/TS_declare' }, 
+                        // { text: '🟦 内置对象', link: '/FrontEnd/TypeScript/TS_declare' }, 
+                        // { text: '🟦 类型别名- type', link: '/FrontEnd/TypeScript/TS_type' }, 
+                        // { text: '🟦 元组', link: '/FrontEnd/TypeScript/TS_元组' }, 
+                        // { text: '🟦 枚举 - enum', link: '/FrontEnd/TypeScript/TS_enum' }, 
+                        // { text: '🟦 类 class', link: '/FrontEnd/TypeScript/TS_class' }, 
+                        // { text: '🟦 泛型 <?>', link: '/FrontEnd/TypeScript/TS_泛型' }, 
                     ]
                 },
             ],
@@ -267,7 +281,67 @@ export default {
                     text: '🟩 Vue',
                     collapsible: true,
                     items: [
-                        { text: '🟩 Vue', link: '/FrontEnd/Vue/' }, 
+                        { text: '🟩 Vue', link: '/FrontEnd/Vue/Vue' }, 
+                        { text: '🟩 Vue 笔记', link: '/FrontEnd/Vue/VueNote' }, 
+                    ]
+                },
+                {
+                    text: '🟩 Vue2',
+                    collapsible: true,
+                    items: [
+                        { text: '🟩 Vue2 事件', link: '/FrontEnd/Vue/Vue2_events' }, 
+                        { text: '🟩 Vue2 计算', link: '/FrontEnd/Vue/Vue2_computed' }, 
+                        { text: '🟩 Vue2 监听', link: '/FrontEnd/Vue/Vue2_watch' }, 
+                        { text: '🟩 计算和监听的区别', link: '/FrontEnd/Vue/Vue2_ComputedAndWatch' }, 
+                        { text: '🟩 Vue2 过滤器', link: '/FrontEnd/Vue/Vue2_filters' }, 
+                        { text: '🟩 Vue2 keep-alive', link: '/FrontEnd/Vue/Vue2_keep-alive' }, 
+                        { text: '🟩 Vue2 生命周期', link: '/FrontEnd/Vue/Vue2_life' }, 
+                        { text: '🟩 Vue2 插槽', link: '/FrontEnd/Vue/Vue2_slot' }, 
+                        { text: '🟩 Vue2 父子组件通信', link: '/FrontEnd/Vue/Vue2_components' }, 
+                        { text: '🟩 Vue2 过渡动画', link: '/FrontEnd/Vue/Vue2_animation' }, 
+                    ]
+                },
+                {
+                    text: '🟩 Vue3',
+                    collapsible: true,
+                    items: [
+                        { text: '🟩 Vue3', link: '/FrontEnd/Vue/Vue3' }, 
+                        { text: '🟩 Vue3 setup', link: '/FrontEnd/Vue/Vue3_setup' }, 
+                        { text: '🟩 Vue3 生命周期', link: '/FrontEnd/Vue/Vue3_生命周期' }, 
+                        { text: '🟩 Vue3 父子组件', link: '/FrontEnd/Vue/Vue3_components' }, 
+                        { text: '🟩 Vue3 监听', link: '/FrontEnd/Vue/Vue3_watch' }, 
+                        { text: '🟩 Vue3 计算', link: '/FrontEnd/Vue/Vue3_computed' }, 
+                        { text: '🟩 Vue3 绑定元素', link: '/FrontEnd/Vue/Vue3_ref' }, 
+                        { text: '🟩 Vue3 过滤', link: '/FrontEnd/Vue/Vue3_filters' }, 
+                    ]
+                },
+                {
+                    text: '🛠️ 脚手架',
+                    collapsible: true,
+                    items: [
+                        { text: '⚡ Vite', link: '/FrontEnd/Vue/Vite' }, 
+                        { text: '⚡ Vite 安装Sass', link: '/FrontEnd/Vue/Vite_Sass' }, 
+                        { text: '⚡ Vite 安装VueRouter', link: '/FrontEnd/Vue/Vite_VueRouter' }, 
+                        { text: '⚡ Vite 安装Vuex', link: '/FrontEnd/Vue/Vite_Vuex' }, 
+                        { text: '⛏️ Vite 区分环境', link: '/FrontEnd/Vue/Vite_env' }, 
+                        { text: '👣 Vite 跨域 - 开发环境', link: '/FrontEnd/Vue/Vite_cors' },
+                        { text: '🛠️ Vue Cli', link: '/FrontEnd/Vue/VueCli' },  
+                        { text: '🍼 网页样式初始化', link: '/FrontEnd/Vue/CSS_init' },  
+                        { text: '📱 移动端优化与适配', link: '/FrontEnd/Vue/Mobile' },  
+                        { text: '🪱 Vue + Sass', link: '/FrontEnd/Vue/Vue_Scss' },  
+                        { text: '🧩 VueRouter', link: '/FrontEnd/Vue/VueRouter' },  
+                        { text: '🧩 Vuex', link: '/FrontEnd/Vue/Vuex' },  
+                        { text: '🍍 Pinia', link: '/FrontEnd/Vue/Pinia' },  
+                        { text: '📡 Axios', link: '/FrontEnd/Vue/Axios' },  
+                        { text: '📡 Axios + Vue3 封装/跨域', link: '/FrontEnd/Vue/Axios_Vue3' },  
+                        { text: '📡 Axios + Vue2 封装/跨域', link: '/FrontEnd/Vue/Axios_Vue2' },  
+                    ]
+                },
+                {
+                    text: '🟩 Nuxt3',
+                    collapsible: true,
+                    items: [
+                        { text: '🟩 Nuxt3', link: '/FrontEnd/Vue/Nuxt3' }, 
                     ]
                 },
             ],
@@ -276,101 +350,101 @@ export default {
                     text: '⬜ Node',
                     collapsible: true,
                     items: [
-                        { text: '⬜ Node', link: '/BackEnd/Node/index.md' }, 
+                        { text: '⬜ Node', link: '/BackEnd/Node/Note.md' }, 
                     ]
                 },
                 {
                     text: '⬛ Express',
                     collapsible: true,
                     items: [
-                        { text: '⬛ Express', link: '/BackEnd/Express/index.md' }, 
+                        { text: '⬛ Express', link: '/BackEnd/Express/Express.md' }, 
                     ]
                 },
                 {
                     text: '🐬 MySQL',
                     collapsible: true,
                     items: [
-                        { text: '🐬 MySQL', link: '/BackEnd/MySQL/index.md' }, 
+                        { text: '🐬 MySQL', link: '/BackEnd/MySQL/MySQL.md' }, 
                     ]
                 },
             ],
             '/Deploy/': [
                 {
-                    text: '🌩️ VitePress',
+                    text: '🐤 博客',
                     collapsible: true,
                     items: [
-                        { text: '🌩️ 标签页图标问题', link: '/Deploy/VitePress_ico.md' }, 
+                        { text: '🌩️ VitePress 标签页图标设置', link: '/Deploy/VitePress_favicon.md' }, 
                     ]
                 },
             ],
-            '/Python/Python': [
+            '/WebSpider/Python': [
                 {
                     text: '🐍 Python 学习',
                     collapsible: true,
                     items: [
-                        { text: '🐍 Python 介绍', link: '/Python/Python/Python介绍.md' }, 
-                        { text: '🐍 Python 安装', link: '/Python/Python/Python安装.md' }, 
+                        { text: '🐍 Python 介绍', link: '/WebSpider/Python/Python_intro.md' }, 
+                        { text: '🐍 Python 安装', link: '/WebSpider/Python/Python_install.md' }, 
                     ]
                 },
                 {
                     text: '🐍 Python 笔记',
                     collapsible: true,
                     items: [
-                        { text: '🐍 Python 零碎笔记', link: '/Python/Python/PythonNote.md' }, 
-                        { text: '🐍 数据类型', link: '/Python/Python/PythonNote_数据类型.md' }, 
-                        { text: '🐍 变量', link: '/Python/Python/PythonNote_变量.md' }, 
-                        { text: '🐍 字符串方法', link: '/Python/Python/PythonNote_字符串.md' }, 
-                        { text: '🐍 数组 - list', link: '/Python/Python/PythonNote_数组.md' }, 
-                        { text: '🐍 元组 - tuple ', link: '/Python/Python/PythonNote_元组.md' }, 
-                        { text: '🐍 条件判断', link: '/Python/Python/PythonNote_条件判断.md' }, 
-                        { text: '🐍 循环 / 迭代', link: '/Python/Python/PythonNote_循环.md' }, 
-                        { text: '🐍 dict和set', link: '/Python/Python/PythonNote_dict和set.md' }, 
-                        { text: '🐍 函数', link: '/Python/Python/PythonNote_函数.md' }, 
-                        { text: '🐍 数据类型转换', link: '/Python/Python/PythonNote_数据类型转换.md' }, 
-                        { text: '🐍 列表生成式 / 生成器', link: '/Python/Python/PythonNote_列表生成式.md' }, 
-                        { text: '🐍 异常处理 try', link: '/Python/Python/PythonNote_异常处理.md' }, 
-                        { text: '🐍 Python - JSON', link: '/Python/Python/PythonNote_JSON.md' }, 
-                        { text: '🐍 with ... as ...', link: '/Python/Python/PythonNote_WithAs' }, 
-                        { text: '🐽 未完待续...', link: '/Python/Python/未完待续' }, 
+                        { text: '🐍 Python 零碎笔记', link: '/WebSpider/Python/PythonNote.md' }, 
+                        { text: '🐍 数据类型', link: '/WebSpider/Python/PythonNote_Type.md' }, 
+                        { text: '🐍 变量', link: '/WebSpider/Python/PythonNote_var.md' }, 
+                        { text: '🐍 字符串方法', link: '/WebSpider/Python/PythonNote_Str.md' }, 
+                        { text: '🐍 数组 - list', link: '/WebSpider/Python/PythonNote_List.md' }, 
+                        { text: '🐍 元组 - tuple ', link: '/WebSpider/Python/PythonNote_tuple.md' }, 
+                        { text: '🐍 条件判断', link: '/WebSpider/Python/PythonNote_IfElse.md' }, 
+                        { text: '🐍 循环 / 迭代', link: '/WebSpider/Python/PythonNote_for.md' }, 
+                        { text: '🐍 dict和set', link: '/WebSpider/Python/PythonNote_DictSet.md' }, 
+                        { text: '🐍 函数', link: '/WebSpider/Python/PythonNote_def.md' }, 
+                        { text: '🐍 数据类型转换', link: '/WebSpider/Python/PythonNote_transition.md' }, 
+                        { text: '🐍 列表生成式 / 生成器', link: '/WebSpider/Python/PythonNote_range.md' }, 
+                        { text: '🐍 异常处理 try', link: '/WebSpider/Python/PythonNote_try.md' }, 
+                        { text: '🐍 Python - JSON', link: '/WebSpider/Python/PythonNote_JSON.md' }, 
+                        { text: '🐍 with ... as ...', link: '/WebSpider/Python/PythonNote_WithAs' }, 
+                        { text: '🐽 未完待续...', link: '/WebSpider/Python/continued' }, 
                     ]
                 },
                 {
                     text: '🐍 Python - File',
                     collapsible: true,
                     items: [
-                        { text: '🐍 文件操作', link: '/Python/Python/PythonFile' }, 
+                        { text: '🐍 文件操作', link: '/WebSpider/Python/PythonFile' }, 
                     ]
                 },
             ],
-            '/Python/Spider': [
+            '/WebSpider/Spider': [
                 {
                     text: '🕸️ 爬虫',
                     collapsible: true,
                     items: [
-                        { text: '🕸️ 爬虫', link: '/Python/Spider/index.md' }, 
+                        { text: '🕸️ 爬虫', link: '/WebSpider/Spider/index.md' }, 
                     ]
                 },
                 {
                     text: '🍃 SQLite',
                     collapsible: true,
                     items: [
-                        { text: '🍃 SQLite 安装', link: '/Python/Sqlite/index.md' }, 
+                        { text: '🍃 SQLite 安装', link: '/WebSpider/Sqlite/index.md' }, 
                     ]
                 }
             ],
-            '/Python/Sqlite': [
+            '/WebSpider/Sqlite': [
                 {
                     text: '🕸️ 爬虫',
                     collapsible: true,
                     items: [
-                        { text: '🕸️ 爬虫', link: '/Python/Spider/index.md' }, 
+                        { text: '🕸️ 爬虫', link: '/WebSpider/Spider/index.md' }, 
                     ]
                 },
                 {
                     text: '🍃 SQLite',
                     collapsible: true,
                     items: [
-                        { text: '🍃 SQLite 安装', link: '/Python/Sqlite/index.md' }, 
+                        { text: '🍃 SQLite 安装', link: '/WebSpider/Sqlite/index.md' }, 
                     ]
                 }
             ],
