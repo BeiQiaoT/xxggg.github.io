@@ -13,6 +13,7 @@
   props: {
     name: {
       type: String,  //这个是给这个参数说明类型
+      required:true,  //必要性
       default: 'xxg' //默认值，选填写
     }
   }

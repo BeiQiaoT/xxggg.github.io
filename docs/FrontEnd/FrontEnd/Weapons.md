@@ -1,6 +1,6 @@
 # ⚔️ 趁手兵器 
 
-## 1、『代码编辑器』- VS code 👇
+## 『代码编辑器』- VS code 👇
 
 > 官方下载地址：[https://code.visualstudio.com/](https://code.visualstudio.com/)  
 > 一键下载，一路下一步安装，他会自动配置好【环境变量】。
@@ -36,7 +36,7 @@
 ![图 15](img/5e0a0f0d52827256df8041cd879de6add86aef73a58382f76dc8867eed5d8b9e.png)  
 
 
-## 2、『英文翻译』- 网易有道词典 👇
+## 『英文翻译』- 网易有道词典 👇
 > 下载地址：[https://cidian.youdao.com/#/](https://cidian.youdao.com/#/)  
 > 打代码一定要养成良好的习惯：  
 > 其中最重要的一点就是【命名】要【语义化】   

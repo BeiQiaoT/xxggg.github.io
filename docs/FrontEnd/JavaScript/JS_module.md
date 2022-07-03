@@ -1,10 +1,14 @@
 # 🟡 JS 模块化 暴露与导入
 
-## require: 【Node】和【es6】都支持的引入
-## Node - CommonJS - 【module.exports/exports】
-可以理解为【模块导出s/导出s】
-## ES6 - 【export & import】- 【export default】
-【导出 和 引入】- 【导出 默认的】
+### 🟩 Node - CommonJS
+- module.exports 【导出】
+- exports 【导出】
+- require 【引入】
+### 🟡 ES6
+- export 【导出】
+- export default 【导出 默认的】
+- import 【引入】
+- require 【引入】
 ### 多行暴露：
 ```typescript
 //a.js

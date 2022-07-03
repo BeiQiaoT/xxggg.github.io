@@ -7,21 +7,21 @@
 参考文章：http://www.imooc.com/wiki/csssprite
 ::: 
 
-## 1.背景图片
+### 1.背景图片
 ```css
 background-image: url(<你想要的图片的地址>);
 ```
-## 2.背景图片-定位
+### 2.背景图片-定位
 ```css
 background-position: <x位置> <y位置>;
 ```
 
-## 3.背景图片-重复
+### 3.背景图片-重复
 ```css
 background-repeat: no-repeat;
 ```
 no-repeat就是禁止重复，默认是重复的！！
-## 4.背景图片-尺寸
+### 4.背景图片-尺寸
 ```css
 background-size：<x轴尺寸> <y轴尺寸>;
 background-size: cover; //吻合图片最短边
@@ -30,7 +30,7 @@ background-size: cover; //吻合图片最短边
 上面就是使用一张大的雪碧图，然后利用背景图片的“尺寸”和“定位”来放置图，最多就是再配合:hover 做一下点击效果（更换定位位置展示不同的图）
 :::
 
-## 5.动画
+### 5.动画
 
 正如慕课网里的教学所说，现在大多使用iconfont来做图标或者使用svg，但是『雪碧图』还是能用！而且还有另一个效果！ 就是做动画！
 

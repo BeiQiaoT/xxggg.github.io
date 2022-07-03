@@ -1,5 +1,8 @@
 # ⚡ Vite 开发流程
 
+::: tip 官方网站
+Vite：[https://vitejs.dev/](https://vitejs.dev/)
+::: 
 ###  1.环境依赖✔️
 -  node.js
 -  Vite只能运行Vue3.x以上版本，不能运行Vue2.x

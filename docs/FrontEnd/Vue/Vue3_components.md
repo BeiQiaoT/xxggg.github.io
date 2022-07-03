@@ -21,6 +21,8 @@ let xxg = 'lalala'
 <script setup lang="ts">
 const props =defineProps({
     data:String
+    required:true,  //必要性
+    default: 'xxg' //默认值，选填写
 })
 
 console.log(props.data)

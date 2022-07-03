@@ -1,6 +1,6 @@
 # 🟥 CSS 代码片段
 
-## 清除浮动代码
+### 清除浮动代码
 ```css
 .clearfix:after {
     display:block;
@@ -12,13 +12,13 @@
     zoom: 1;
 }
 ```
-## 隐藏滚动条
+### 隐藏滚动条
 ```css
 .note-menu::-webkit-scrollbar {     
     display: none;
 }
 ```
-## 防止单行文字溢出
+### 防止单行文字溢出
 ```css
 .text{
     text-overflow:ellipsis;
@@ -26,7 +26,7 @@
     white-space:nowrap;
 }
 ```
-## 背景图片居中
+### 背景图片居中
 ```css
 .img{
 	background:url(xxx);
@@ -35,7 +35,7 @@
 }
 ```
 
-## 去掉 input 发光
+### 去掉 input 发光
 ```css
 input:focus{
     box-shadow:none;
@@ -45,7 +45,7 @@ input:focus{
     outline: none;
 }
 ```
-## 多行文字… 省略的方法
+### 多行文字… 省略的方法
 ```css
 .text{
 	overflow: hidden;
@@ -56,7 +56,7 @@ input:focus{
 	-webkit-box-orient: vertical;  /*设置文本排列方式*/
 }
 ```
-## 在position:fixed 下居中
+### 在position:fixed 下居中
 ```css
 .class{
     position:fixed;
@@ -64,7 +64,7 @@ input:focus{
     right: 0;
 }
 ```
-## ... 代替“溢出字”
+### ... 代替“溢出字”
 ```css
 .class{
     overflow: hidden;
@@ -72,7 +72,7 @@ input:focus{
     white-space: nowrap;
 }
 ```
-## 单词/数字 不换行溢出解决办法
+### 单词/数字 不换行溢出解决办法
 ```css
 .text{
     word-break: break-all;

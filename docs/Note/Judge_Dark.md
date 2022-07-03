@@ -1,6 +1,6 @@
 # 🌓 判断系统暗黑模式
 
-## 媒体查询prefers-color-scheme
+## Ⓜ️ 媒体查询prefers-color-scheme
 ```css
 @media (prefers-color-scheme: dark) {
   :root {
@@ -13,7 +13,7 @@
 - light：表示用户的操作系统是浅色主题（light）
 - dark：表示用户的操作系统是深色主题（dark）
 
-## JS 判断系统暗黑模式
+## 🟨 JS 判断系统暗黑模式
 ```js
 const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
 if (systemTheme.matches) { // 是深色
@@ -22,7 +22,7 @@ if (systemTheme.matches) { // 是深色
   // 主题设置为浅色。
 }
 ```
-## CSS 判断系统暗黑模式
+## 🟥 CSS 判断系统暗黑模式
 ```css
 @media (prefers-color-scheme: light) { /*light : 浅色*/
 	/*主题设置为深色。*/

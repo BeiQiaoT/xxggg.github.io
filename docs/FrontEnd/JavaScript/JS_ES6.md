@@ -1,13 +1,13 @@
 # 🟡 ES6
 
-## 🟢变量 - let
+## 🟡 变量 - let
 1. 变量不能重复声明
 1. 块级作用域
 1. 不存在变量提升
 ```javascript
 let xxg = "xxg";
 ```
-## 🟢常量 - const
+## 🟡 常量 - const
 
 1. 一定要赋初始值
 1. 一般常量使用大写
@@ -17,7 +17,7 @@ let xxg = "xxg";
 ```javascript
 const xg = "xg";
 ```
-## 🔵解构赋值
+## 🟡 解构赋值
 ### 数组解构：
 ```javascript
 const F4 = ['小沈阳','刘能','赵四','宋小宝'];
@@ -34,7 +34,7 @@ let { name , age } = zhao;
 console.log(name);
 console.log(age);
 ```
-## 🟢模板字符串『 ` ` 』
+## 🟡 模板字符串『 ` ` 』
 ```javascript
 let str = `字符串`;
 
@@ -44,7 +44,7 @@ let strr = `xxg
 
 let strrr = `xxg${str}`;
 ```
-## 🟢简化对象写法
+## 🟡 简化对象写法
 ```javascript
 let name = 'xxg';
 
@@ -58,7 +58,7 @@ components:{ //定义子组件
 },
 
 ```
-## 🟢箭头函数
+## 🟡 箭头函数
 
 1. 【在箭头函数下】this是静态的，this始终指向函数声明时所在作用域下的this的值
 1. 【在箭头函数下】不能作为构造实例化对象
@@ -82,7 +82,7 @@ let pow = n => n * n ; //省略花括号得写成一行
 ```
 
 5. 【箭头函数适合与 this 无关的回调。定时器，数组的方法回调】【不适合与 this 有关的回调。事件回调，对象的方法】
-## 🟢函数参数的默认值设置
+## 🟡 函数参数的默认值设置
 
 1. 形参初始值 具有默认值的参数，一般位置要靠后（潜规则）
 ```javascript
@@ -90,7 +90,7 @@ function add (a,b,c=10){
   return a + b + c;
 }
 ```
-## 🔵rest参数『 ...args 』
+## 🟡 rest参数『 ...args 』
 
 1. ES6引入 rest 参数，用于获取函数的实参，用来代替 arguments
 1. rest 参数必须要放到最后
@@ -112,7 +112,7 @@ function fn(a,b,...args){
   //
 }
 ```
-## 🟢扩展运算符『 ... 』
+## 🟡 扩展运算符『 ... 』
 
 1. 『 ... 』扩展运算符能将『数组』转换为逗号分隔的『参数序列』
 ```javascript
@@ -148,7 +148,7 @@ const sanyecao = [...sanzhihua]; //['E','G','M']; 【浅拷贝】：拷贝变量
 const divs = Object;
 const array = [...divs];
 ```
-## 🔴Symbol【独一无二的值】
+## 🟡 Symbol【独一无二的值】
 阮一峰：[https://es6.ruanyifeng.com/#docs/symbol](https://es6.ruanyifeng.com/#docs/symbol)  
 
 - ES6引入的新原始数据类型，类似字符串数据类型，是第七种数据类型。
@@ -188,8 +188,8 @@ let youxi = {
   }
 }
 ```
-### 🔴Symbol内置值：略
-## 🔴迭代器（Iterator)
+### 🟡 Symbol内置值：略
+## 🟡 迭代器（Iterator)
 
 - **for...of **循环，Iterator接口主要供 for...of消费
 1. Array
@@ -199,7 +199,7 @@ let youxi = {
 1. String
 1. TypeArray
 1. NodeList
-## 🔴生成器
+## 🟡 生成器
 
 - 生成器就是一个特殊的函数
 - 异步编程 纯回调函数
@@ -211,7 +211,7 @@ funtction * gen(){
 let iterator = gen();
 iterator.next(); // 要使用 next() 来调用
 ```
-## 🟢Promise
+## 🟡 Promise
 Promise 是ES6引入的异步编程的新解决方案，语法上Promise是一个构造函数，用来封装【异步操作】并可以获取成功或失败。
 ```javascript
 const p = new Promise(function(resolve,reject){
@@ -232,7 +232,7 @@ p.then(function(value){
   console.log(reason);
 })
 ```
-### 🔵promise读取文件👇
+### 🟡 promise读取文件👇
 ```javascript
 const fs = require('fs');
 
@@ -257,7 +257,7 @@ p.than(funciton(value){
   console.log("读取失败！！");
 });
 ```
-### 🔵promise封装AJAX👇 
+### 🟡 promise封装AJAX👇 
 
 1. 原始👇
 ```javascript
@@ -313,7 +313,7 @@ p.then(function(value){
 	console.error(reason);
 });
 ```
-### 🟢Promise-then方法👇
+### 🟡 Promise-then方法👇
 ```javascript
 const p = new Promise((resolve,reject)=>{
   setTimeout(()=>{
@@ -335,7 +335,7 @@ const result = p.then(value => {
   console.log(reason);
 });
 ```
-### 🟢Promise-catch方法👇
+### 🟡 Promise-catch方法👇
 ```javascript
 const p = new Promise((resolve,reject)=>{
   setTimeout(()=>{
@@ -350,8 +350,8 @@ p.catch(function(reason){
 
 ---
 
-## 🟢集合 - set
-### 🟢基础：
+## 🟡 集合 - set
+### 🟡 基础：
 
 1. 集合去重
 ```javascript
@@ -393,14 +393,14 @@ let S2 = new Set([1,2,3,4,1,2,3])
 s2.clear();
 console.log(s2);//[]
 ```
-### 🟢数组去重👇
+### 🟡 数组去重👇
 ```javascript
 let arr = [1,2,3,4,5,4,3,2,1];
 let result = [...new Set(arr)];
 
 console.log(result) 
 ```
-### 🟢交集👇
+### 🟡 交集👇
 ```javascript
 let arr = [1,2,3,4,5,4,3,2,1];
 let arr2 = [4,5,6,5,6];
@@ -419,7 +419,7 @@ let result = [...new Set(arr)].filter(item => {
 
 console.log(result) 
 ```
-### 🟢并集👇
+### 🟡 并集👇
 ```javascript
 let arr = [1,2,3,4,5,4,3,2,1];
 let arr2 = [4,5,6,5,6];
@@ -429,7 +429,7 @@ let result = [...mew Set(union)];
 
 console.log(result) 
 ```
-### 🟢差集👇
+### 🟡 差集👇
 
 1. 1里面有的 2里面没有【1和2的差集】
 1. 2里面有的 1里面没有【2和1的差集】
@@ -441,8 +441,8 @@ let diff = [...new Set(arr)].filter(item => !(new Set(arr2).has(item)));
 
 console.log(diff) 
 ```
-## 🟢Map
-### 🟢基础：
+## 🟡 Map
+### 🟡 基础：
 ```javascript
 let m = new Map();
 ```
@@ -687,7 +687,7 @@ console.log(s.price);
 //价格属性被读取
 //xxg
 ```
-## 🔵ES6的数值扩展
+## 🟡 ES6的数值扩展
 
 1. Number.EPSILON 【最小精度】
 1. 二进制和八进制 【0b1010】-【0b开头】【 0o777】-【0o开头】
@@ -698,21 +698,21 @@ console.log(s.price);
 1. Math.trunc 【将数字的小数部分抹掉】【Math.trunc(3.5)】【其实就是向下取整】
 1. Math.sign 【判断一个数为 正数 负数 还是0】【正数为1，负数为-1，0为0】
 
-## 🔵对象方法扩展
+## 🟡 对象方法扩展
 
 1. Object.is 【判断两个值是否完全相等】【NaN 是 NaN】
 1. Object.assign 【对象的合并】【Object.assign(xxg1,xxg2)】【如果有相同的属性，后面的参数会把前面的覆盖了】
 1. Object.setPrototypeOf 【设置原型对象】
 1. Object.getPrototypeof
 
-## 🟢ES 模块化
+## 🟡 ES 模块化
 
 - 模块化是指将一个大的程序文件，拆分成许多小的文件，然后将小文件组合起来。
 
 模块化产品👇：
 
 1. CommonJS => NodeJS
-### 🟢模块化语法：
+### 🟡 模块化语法：
 
 1. **【export】 命令用于暴露出接口**
 1. **【import】 命令用于引入其他文件的接口**
@@ -743,7 +743,7 @@ import * as m2 from "./m2.js";
 // 引入入口文件
 <srcipt src="./src/js/app.js" type="module"></script>
 ```
-## 🟢babel
+## 🟡 babel
 
 - babel - 把ES6转化为大部分浏览器可接受的ES5
 1. 安装：babel-cli babel-preset-env browserify(webpack)
@@ -755,7 +755,7 @@ import * as m2 from "./m2.js";
 //改成👇
 <srcipt src="dist/bundle.js" type="module"></script>
 ```
-## 🟢async 和 await【ES8新特性】
+## 🟡 async 和 await【ES8新特性】
 async和await 两种语法结合可以让异步代码像同步代码一样！
 ### async函数：
 
@@ -802,7 +802,7 @@ async function main(){
 main();
 //good
 ```
-## 🔴对象方法扩展
+## 🟡 对象方法扩展
 ### Object.keys(xxg)
 获取对象所有的键
 ### Object.values(xxg)

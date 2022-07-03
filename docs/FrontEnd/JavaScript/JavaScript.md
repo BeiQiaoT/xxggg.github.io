@@ -1,5 +1,5 @@
-# 🟨 JavaScript 基础
+# 🟨 JavaScript 学习路径
 
-笔记持续整理中....
-
-    
+::: tip 图文教程推荐
+1. [菜鸟教程 JavaScript](https://www.runoob.com/js/js-tutorial.html)
+:::

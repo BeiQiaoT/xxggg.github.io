@@ -1,6 +1,6 @@
-# 🟥 CSS选择器
+# 🟥 CSS 选择器
 
-## 属性选择器
+### 属性选择器
 属性选择器就是在所有标签上 只要有这个属性的就被选择中！
 ```css
 [title]{
@@ -17,13 +17,13 @@ a[class^=xxg]{
 }
 ```
 
-## nth 元素选择
+### nth 元素选择
 - demo:nth-child(n) 选择器匹配属于其父元素的第 N 个子元素；
 - demo:nth-last-child(n) 选择器匹配属于其元素的第 N 个子元素的每个元素，从最后一个子元素开始计数；
 - demo:nth-of-type(n) 选择器匹配属于父元素的特定类型的第 N 个子元素的每个元素
 
 
-## before && after
+### before && after
 
 - demo:before：元素的内容之前插入新内容。
 - demo:after：元素的内容之后插入新内容。
@@ -33,7 +33,7 @@ a[class^=xxg]{
     content: '内容';
 }
 ```
-### 使用伪类 after 清除元素内部浮动效果
+#### 使用伪类 after 清除元素内部浮动效果
 ```css
 .demo:after{
     content: '';
@@ -45,7 +45,7 @@ a[class^=xxg]{
 }
 ```
 
-### 在元素内容开始前插入图片
+#### 在元素内容开始前插入图片
 ```css
 .demo:before{
     content: '';
@@ -59,7 +59,7 @@ a[class^=xxg]{
 }
 ```
 
-## CSS3伪类选择器
+### CSS3伪类选择器
 
 | 伪类选择器            |	说明 |
 | :-:                   | :-: |
