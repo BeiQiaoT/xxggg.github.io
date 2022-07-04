@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./app.0c1a17b6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/TypeScript/TS_\u5143\u7EC4.md","lastUpdated":1656801632000}'),a={name:"FrontEnd/TypeScript/TS_\u5143\u7EC4.md"};function o(n,c,p,s,_,d){return r(),e("div")}var f=t(a,[["render",o]]);export{m as __pageData,f as default};
