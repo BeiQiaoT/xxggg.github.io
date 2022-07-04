@@ -44,7 +44,7 @@ node 文件名.js
 6. **object对象**
 6. enum枚举类型
    1. enum xxg｛red blue｝（red是0，blue是1）
-   1. enumxxg ｛red="Red" blue="3"}
+   1. enum xxg ｛red="Red" blue="3"}
 9. void（没有返回值就用void）
 9. **undefined （有这个东西，但是未定义）**
 9. never
@@ -66,7 +66,7 @@ node 文件名.js
 let xxg = 18
 let xg = （xxg as string）
 ```
-## 🔵 Interface接口：
+## 🟢 Interface接口：
 ```typescript
 interface Point{
   x:number;

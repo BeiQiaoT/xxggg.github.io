@@ -7,7 +7,6 @@
 <a target="_blank">打开在新建窗口</a>
 ```
 
-
 ## 锚
 ```html
 <a id="tips">提示部分</a>
