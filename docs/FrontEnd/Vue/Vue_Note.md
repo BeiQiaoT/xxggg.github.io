@@ -2,7 +2,7 @@
 
 这里是一些基础零碎的笔记~ Vue2、Vue3通用！
 
-##  常用指令
+##  🟩 常用指令
 1. `v-text`
 2. `v-html` 
 3. `v-for`
@@ -14,7 +14,7 @@
 9. `v-pre`
 10. `v-once`
 
-## 引入组件
+## 🟩 引入组件
 ```html
 <template>
     <xxg-test></xxg-tes>

@@ -3,7 +3,9 @@ export default {
     titleTemplate: '谢夏戈的博客', //标题模板
     description: 'XXG-BLOG', //描述
     lastUpdated: true, //开启上次更新时间
-    
+    markdown: {
+        theme: 'nord',
+    },
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { property: 'og:title', content: '谢夏戈博客' }],
@@ -93,7 +95,7 @@ export default {
                 items: [
                     { text: '📦 SQL', link: '../Database/SQL/SQL' },
                     { text: '🐬 MySQL', link: '../Database/MySQL/MySQL' },
-                    { text: '🍃 SQLite', link: '../Database/Sqlite/Sqlite' },
+                    { text: '🍃 SQLite', link: '../Database/SQLite/SQLite' },
                 ]
             },
             {
@@ -243,12 +245,12 @@ export default {
                     items: [
                         { text: '💛 JS 数组方法', link: '/FrontEnd/JavaScript/JS_Array' }, 
                         { text: '💛 JS 遍历数组', link: '/FrontEnd/JavaScript/JS_ArrayEach' }, 
-                        { text: '💛 JS 数组查找', link: '/FrontEnd/JavaScript/JS_数组查找' }, 
-                        { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_数组删除' }, 
-                        { text: '💛 JS 数组批量删除', link: '/FrontEnd/JavaScript/JS_数组批量删除' }, 
-                        { text: '💛 JS 对象方法', link: '/FrontEnd/JavaScript/JS_对象方法' }, 
-                        { text: '💛 JS 字符串方法', link: '/FrontEnd/JavaScript/JS_字符串方法' }, 
-                        { text: '💛 JS 类型转换', link: '/FrontEnd/JavaScript/JS_类型转换' }, 
+                        { text: '💛 JS 数组查找', link: '/FrontEnd/JavaScript/JS_ArrayFind' }, 
+                        { text: '💛 JS 数组删除', link: '/FrontEnd/JavaScript/JS_ArrayDelete' }, 
+                        { text: '💛 JS 数组批量删除', link: '/FrontEnd/JavaScript/JS_ArrayBatchesDelete' }, 
+                        { text: '💛 JS 对象方法', link: '/FrontEnd/JavaScript/JS_Object' }, 
+                        { text: '💛 JS 字符串方法', link: '/FrontEnd/JavaScript/JS_String' }, 
+                        { text: '💛 JS 类型转换', link: '/FrontEnd/JavaScript/JS_ChangeType' }, 
                     ]
                 },
                 {
@@ -289,7 +291,7 @@ export default {
                     collapsible: true,
                     items: [
                         { text: '🟩 Vue', link: '/FrontEnd/Vue/Vue' }, 
-                        { text: '🟩 Vue 笔记', link: '/FrontEnd/Vue/VueNote' }, 
+                        { text: '🟩 Vue 笔记', link: '/FrontEnd/Vue/Vue_Note' }, 
                     ]
                 },
                 {

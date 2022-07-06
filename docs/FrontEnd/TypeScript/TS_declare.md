@@ -14,7 +14,7 @@ NO！TS为了JS更好的过渡到TS 就有了类型声明文件~
 但是表怕！  
 我也不会... 
 
-但是我们有！ 👇大佬写的教程！！！
+但是我们有！ 大佬写的教程！！！👉
 [TypeScript入门教程：声明文件](https://ts.xcatliu.com/basics/declaration-files.html)
 
 好吧，其实我也会一点，前面说了嘛~  
@@ -52,13 +52,14 @@ ok！ 完成！对于npm包的写法嘛...
 这个declare就是用来声明，翻译过来也是【声明】【宣布】的意思
 
 
-## 第三方声明文件
+## 🟦 第三方声明文件
 通常一些社区会把写好的【声明文件】提交到项目【@types】文件夹里  
 
-比方他们经常说的jQery(这个当年有学过~也有用过~不过后来都用Vue这MVVM了...) 像这个jQery里的`$` TypeScript就不认识，所以要么自己写声明文件... 要么去拿人家写好的
+比方他们经常说的jQery(这个当年有学过~也有用过~不过后来都用Vue这MVVM了...)   
+像这个jQery里的`$` TypeScript就不认识，所以要么自己写声明文件... 要么去拿人家写好的
 ```sh
 npm install @types/jquery --save-dev
 ```
 
-## 关于更多👇
+## 🟦 关于更多👇
 请参考大佬写的：[TypeScript入门教程：声明文件](https://ts.xcatliu.com/basics/declaration-files.html)

@@ -6,15 +6,13 @@ let img = document.detElementById("image") as HTMLImageElement
 ```
 `HTMLImageElement`
 
-因为像这种`元素节点`的类型... 又不像`number``string`...  对伐~
+因为像这种`元素节点`的类型... 又不像`number``string`这种基础类型好定义...  对伐~
 
 这种就是【内置的对象】  
 它一般有分：
 1. ECMAScript 的内置对象 `Boolean` `Error` `Date` `RegExp`
 2. DOM 和 BOM 的内置对象 `Document` `HTMLElement` `Event` `NodeList`
-
-
-
+3. .....
 
 
 ```html

@@ -1,40 +1,18 @@
 # 🟨 JS 事件
 
 ## 🖱️鼠标事件
-```javascript
-//鼠标点击
-onclick() 	
+- `onclick()` 鼠标点击 
+- `ondblclick()` 鼠标双击
+- `onmousedown()`	鼠标被按下	 
+- `onmouseup()`	鼠标按下后的松开
+- `oncontextmenu()` 鼠标右键打开上下文菜单时触发	
+- `oncontextmenu="return false"` 屏蔽右键菜单	
+- `onmouseenter()` 鼠标移到: 不支持冒泡	
+- `onmouseover()` 鼠标移到:影响子元素 	
+- `onmouseleave()` 鼠标移开: 不支持冒泡	
+- `onmouseout()` 鼠标移开:影响子元素 	
+- `onmousemove()` 鼠标被移动
 
-//鼠标双击
-ondblclick()
-
-//鼠标被按下
-onmousedown()		
-
-//鼠标按下后的松开
-onmouseup()	
-
-//鼠标右键打开上下文菜单时触发
-oncontextmenu() 	
-
-//屏蔽右键菜单
-oncontextmenu="return false"	
-
-//鼠标移到: 不支持冒泡
-onmouseenter() 	
-
-//鼠标移到:影响子元素
-onmouseover() 	
-
-//鼠标移开: 不支持冒泡
-onmouseleave() 	
-
-//鼠标移开:影响子元素
-onmouseout() 	
-
-//鼠标被移动
-onmousemove() 	
-```
 ```html
 <!-- 在html中使用👇 -->
 <button onclick="xxg()">点击我</button>
@@ -50,8 +28,10 @@ document.getElementById("btn").onclick = function() {
 </script>
 ```
 ```vue
-<!-- 在vue中使用👇 用@ -->
-<button @click="xxg()">点击我</button>
+<template>
+  <!-- 在vue中使用👇 用@ -->
+  <button @click="xxg()">点击我</button>
+</template>
 ```
 ## 👆触摸事件
 

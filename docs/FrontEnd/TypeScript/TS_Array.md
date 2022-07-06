@@ -2,11 +2,11 @@
 
 ### 🌰举个例子
 ```ts
-let arr:number[] = [,1,2,3,4,5];
+let arr:number[] = [1,2,3,4,5];
 ```
 ### 【数组泛型】和上面效果一样
 ```ts
-let arr: Array<number> = [1, 1, 2, 3, 5];
+let arr: Array<number> = [1,2,3,4,5];
 ```
 ###  任意类型 - 数组
 ```ts
@@ -17,7 +17,7 @@ let arr: any<number> = [1, 'xxg', true, 4, 5];
 interface NumberArray {
     [index: number]: number;
 }
-let arr: NumberArray = [1, 1, 2, 3, 5];
+let arr: NumberArray = [1,2,3,4,5];
 ```
 ::: tip
 NumberArray 表示：只要索引的类型是数字时，那么值的类型必须是数字。
@@ -51,13 +51,15 @@ function sum() {
 但是如果我们每次都要这样定义就很麻烦...
 
 所以还是有方便的方法，就是用TypeScript内置好的接口...   
-就像上面这个`arguments`👇
+就像上面这个`arguments`👇 TypeScript 已经帮我们定义好了，拿来用就可以了。
 ```ts
 function sum() {
     let args: IArguments = arguments;
 }
 ```
-TypeScript 已经帮我们定义好了👇，拿来用就可以了。
+
+
+以下是TS帮我们定义好的 不用写这些！【内置的】
 ```ts
 interface IArguments {
     [index: number]: any;

@@ -12,7 +12,7 @@ let mySum = function (x, y) {
 };
 ```
 
-## 函数声明
+## 🟦 函数声明
 ```ts
 function sum(x: number, y: number): number {
     return x + y;
@@ -28,7 +28,7 @@ function sum(x:number = 1, y?:number): number {
 }
 ```
 
-## 函数表达式
+## 🟦 函数表达式
 ```ts
 let mySum = function (x: number, y: number): number {
     return x + y;

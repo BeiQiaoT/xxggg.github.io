@@ -1,6 +1,6 @@
 # 💛 JS 数组批量删除
 
-## 1、利用filter过滤
+## 💛 利用filter过滤
 ```typescript
 var arr = [
 	{ name:xxg; age:18 };
@@ -16,7 +16,7 @@ var arr2 = arr.filter(item =>{
 //	{ name:yt; age:18};
 //]
 ```
-## 2、splice倒序删除
+## 💛 splice倒序删除
 ```typescript
 let arr = [1,2,2,3,4,5];
 let len = arr.length

@@ -8,7 +8,7 @@ TypeScript入门教程：[https://ts.xcatliu.com/](https://ts.xcatliu.com/)
 
 
 现在很多项目都由JavaScript转向TypeScript了~ 所以还是很有必要学习一下TypeScript的
-## TypeScript 是什么？  
+## 🟦 TypeScript 是什么？  
 
 TypeScript是JavaScript的超集！  
 可以理解TypeScript是包含着JavaScript！也就是TS比JS多出一些东西，而这些东西可以更好的规范JS。  
@@ -35,7 +35,7 @@ let xxg:string = '谢夏戈'
 ```
 大概就是指明，接下来我定义的这个变量是什么类型的！  先告诉它。 
 
-## 安装 typescript
+## 🟦 安装 typescript
 ```sh
 npm install -g typescript
 ```
@@ -59,7 +59,7 @@ var xxg = "谢夏戈"
 还是那句话，TypeScript只不过是在开发阶段去稳定我们写的东西！
 :::
 
-## 基本的【类型声明】
+## 🟦 基本的【类型声明】
 ```ts
 //【数字】
 let xxg:number = 1;
@@ -90,7 +90,7 @@ let u: undefined;
 let num: number = u;
 ```
 
-## 字符串字面量类型
+## 🟦 字符串字面量类型
 字符串字面量类型用来约束取值只能是某几个字符串中的一个。
 ```ts
 let name:'xxg'|'xxggg' = 'xxg'
@@ -98,7 +98,7 @@ let name:'xxg'|'xxggg' = 'xxg'
 name = 'xxggg' //这个ok！
 name = 'xxgg' //这个不ok
 ```
-## Any 任意值
+## 🟦 Any 任意值
 任意值（Any）用来表示允许赋值为任意类型。
 ```ts
 let xxg:any = 1
@@ -119,7 +119,7 @@ Any 就有点类似于把它变回了js，就是摆烂... 就是类型声明... 
 变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型  
 :::
 
-## 类型推论
+## 🟦 类型推论
 所谓【类型推论】，就是说 如果你给这个变量一个数字，它就会自己去推它的类型是【数字类型】
 
 就是自己给自己声明... 这种情况下即使你不写声明也没问题。
@@ -134,7 +134,7 @@ let xxg:number = 1
 ```
 但是如果你后面想把它定义成【字符串】它就会说不行！哒咩！  
 如果你既想它可以是【数字】也可以是【字符串】你就需要自己把它声明成【联合类型】👇
-## 联合类型
+## 🟦 联合类型
 ```ts
 let xxg:number|string = 1
 ```
@@ -152,4 +152,4 @@ function xxg(args: string | number): number {
 像这样是会报错的，因为string有length属性，但是number没有... 
 
 
-## 下一章讲接口..
+### 下一章讲接口..

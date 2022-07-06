@@ -7,17 +7,24 @@ let img = document.detElementById("image") as HTMLImageElement
 其实就是在告诉 这个变量说“没错！我就是这个类型，你不用质疑了”
 
 ### 再举个栗子吧👇
+
+```ts
+//TS告诉变量name，你是一个数字！你只能接收【数字类型】的！
+let name:number = 1  //TS：“你只能接收【数字类型】的！造吗？！”
+
+//于是name很听话，如果你把它变成【字符串】，它是不会同意的👇.. 
+
+name = "xxg" // "xxg"你是字符串！ 我要报错了！！ 可恶！！！
+```
+
+但是如果我们使用了【as】!
 ```ts
 let name:number = 1
 
-name = "xxg" as number //这样是可以通过编译的
+name = "xxg" as number //我是一个【数字类型】我是一个【数字类型】....
+//name：“可以通过！”
 ```
-  
-由于name之前被定义成了number类型，它的上司TypeScript就给了它个命令，“不是number类型的别给它过！造吗？！”  
 
-于是name很听话，如果你把它变成【字符串】它是不会同意的.. 
-
-但是你强迫告诉它说“你别理，我说这个是number类型！就是number类型！”
 
 ::: danger 
 这样很容易出事，除非你真的确定在你这些代码这样写没问题.. 哈哈哈 
