@@ -1,6 +1,6 @@
 # 🟩 Vue3 
 
-## 定义组件 defineComponent
+## 🟩 定义组件 defineComponent
 ```vue
 <script>
   //vue3 需要从 vue中 拿到一个函数 defineComponent【定义组件】
@@ -21,7 +21,7 @@
   })
 </script>
 ```
-## ref - 定义单个数据 
+## 🟩 ref - 定义单个数据 
 
 1. 在vue3.x 的setup中，你定义的变量，如果想用到 上面的HTML模板里，要用【ref】定义。
 1. 并且需要 return 将它返回出去
@@ -71,7 +71,7 @@ export default defineComponent({
 </script>
 
 ```
-## reactive - 定义对象数据：
+## 🟩 reactive - 定义对象数据：
 ```vue
 <template>
   <div class="home">
@@ -103,7 +103,7 @@ export default defineComponent({
 });
 </script>
 ```
-## toRefs - 解构数据
+## 🟩 toRefs - 解构数据
 ```vue
 <template>
   <div class="home">
@@ -141,7 +141,7 @@ export default defineComponent({
 ```
 可以直接写 name 不用写 data.name 但是会冲突, 所以要注意！只是方便而已~
 
-## Vue3.x 使用Vuex
+## 🟩 Vue3.x 使用Vuex
 
 1. useStore 可以拿到整个vuex
 1. 在setup中将useStore赋值变量
@@ -167,7 +167,7 @@ export default defineComponent({
 });
 </script>
 ```
-## Vue3.x 使用Router
+## 🟩 Vue3.x 使用Router
 ### 编程式导航
 
 1. 使用【useRouter】赋值给【router】
@@ -220,7 +220,7 @@ let goto2 = () =>{
 - 使用【useRoute】 赋值给变量【route】
 - route.query【会在url上、使用path】
 - route.params【使用name】
-```javascript
+```vue
 <script lang="ts">
 import { defineComponent,ref} from 'vue';
 import { useRouter,useRoute} from 'vue-router';
@@ -242,11 +242,11 @@ export default defineComponent({
 });
 </script>
 ```
-## Vue3.x 使用【计算属性】
+## 🟩 Vue3.x 使用【计算属性】
 
 1. 引入computed模块
 1. 在setup中使用👇
-```html
+```vue
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue';
 export default defineComponent({
@@ -270,7 +270,7 @@ export default defineComponent({
 });
 </script>
 ```
-## 生命周期
+## 🟩 生命周期
 ### 1、setup【不需要声明、引入】
 ```javascript
 setup(){
@@ -306,11 +306,11 @@ export default defineComponent({
 })
 ```
 ### 4、...... 
-## 关于【父子传参】
+## 🟩 关于【父子传参】
 
 1. 这里父子传参和vue2.x的差不多
 ### 【父传子】子组件接受参数（父传参：略）
-```javascript
+```js
 //【子组件】
 props:{
   msg:{
@@ -322,7 +322,7 @@ setup(props){
 }
 ```
 
-```typescript
+```js
 let Props = defineProps({
     list: Object,
     list_name: String
@@ -351,15 +351,15 @@ setup(props,ctx){
   }
 }
 ```
+【父组件】接受方法👇
 ```html
-//【父组件】接受方法👇
 <div @getName='fn()'></div>
 ```
-## 🟢引入json
-```css
+## 🟩 引入json
+```js
 import ACL from '../assets/json/AliCloud_List.json'
 ```
-## 🟢vue 监听浏览器窗口
+## 🟩 vue 监听浏览器窗口
 ```javascript
 window.onresize = () => { //当窗口发生改变时触发 
  		windowWidth.value = window.document.body.clientWidth;

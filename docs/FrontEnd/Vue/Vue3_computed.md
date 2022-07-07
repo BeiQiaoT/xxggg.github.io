@@ -1,6 +1,6 @@
 # 🟩 计算 computed
 
-```html
+```vue
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 
@@ -13,8 +13,8 @@ plusOne.value++ // error 【不能操作】
 </script>
 ```
 
-## 用get/set 就可以操作
-```html
+## 🟩 用get/set 就可以操作
+```vue
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 

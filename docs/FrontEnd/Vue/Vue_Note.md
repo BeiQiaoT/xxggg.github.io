@@ -15,9 +15,9 @@
 10. `v-once`
 
 ## 🟩 引入组件
-```html
+```vue
 <template>
-    <xxg-test></xxg-tes>
+    <xxg-test></xxg-test>
     或
     <XxgTest />
 </template>
@@ -31,7 +31,7 @@ component:{
 </script>
 ```
 Vue3的setup语法糖，不用在`component`处声明👇
-```html
+```vue
 <template>
     <XxgTest />
 </template>

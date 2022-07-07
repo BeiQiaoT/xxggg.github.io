@@ -12,7 +12,7 @@
 3. node-sass是自动编译实时的，dart-sass需要保存后才会生效
 4. 推荐 dart-sass 性能更好（也是 sass 官方使用的），而且 node-sass 因为国情问题经常装不上
 :::
-## 🟢 1.安装
+### 🪱 安装
 > 一般我们使用【node】环境下,在@Vue/cli脚手架中
 
 还有一个要安装的👉【sass-loader】,因为我们在 webpack的项目中要使用
@@ -20,27 +20,27 @@
 npm install node-sass --save-dev
 npm install sass-loader --save-dev
 ```
-### 🟢 Vite安装Sass
+### 🪱 Vite安装Sass
 ```shell
 npm install --save-dev sass
 ```
-## 🟢 2.使用【vue/cli】
+### 🪱 使用
 ```html
 <style lang='scss' scoped>
     /* 然后在这里面写写写 */
 </style>
 ```
-> 注意：要写scss 别写sass 要不很难受~
+> 注意：要写scss 别写sass 
 
-## 🟢 3.通用文件的位置
+#### 🪱 通用文件的位置
 > 一般Sass文件都是放在 `scr/assets/styles/`里的
 
 - 项目中会有一个 function.scss 文件来单独维护各种各样的函数 【函数】
 - 项目中有专门的 mixin.scss 文件来管理全局的 `[@mixin ](/mixin )` 指令【混合指令】 
 
-## 🟢 4.基础
-### 🟢 嵌套：
-```css
+## 🪱 Sass/Scss基础
+### 🪱 嵌套：
+```scss
 nav {
   a {
     display: block;
@@ -57,20 +57,19 @@ nav {
   }
 }
 ```
-### 🟢 变量：
+### 🪱 变量：
 **在项目中在src/assets里存放scss文件，用variables.scss 存放变量**
-```css
+```scss
 $myColor: red;
 
 body {
   color: $myColor;
 }
-
 ```
-### 🟢 **!global 全局作用域**
-### 🟢 数据类型/运算：略
-### 🟢 插值 #{$name}：
-```css
+### 🪱 **!global 全局作用域**
+### 🪱 数据类型/运算：略
+### 🪱 插值 #{$name}：
+```scss
 @mixin corner-icon($name, $top-or-bottom, $left-or-right) {
   .icon-#{$name} { // 使用了插值
     background-image: url("/icons/#{$name}.svg");
@@ -90,7 +89,7 @@ body {
   left: 0;
 }
 ```
-```css
+```scss
 $name: item;
 .ul-#{$name} { // 使用插值
   width: 200px;
@@ -99,9 +98,9 @@ $name: item;
   }
 }
 ```
-### 🟢 函数：
+### 🪱 函数：
 function.scss 文件来**单独维护各种各样的函数**
-```css
+```scss
 $list: [1,2,4,5];
 $string: 'string';
 $substring: 'str';
@@ -117,7 +116,7 @@ $substring: 'str';
 }
 ```
 一般我们使用 **函数指令 @function** 来定义我们自己的函数
-```css
+```scss
 // 截取字符串的后半部分
 @function middleStr($str) {
   $leng: str-length($str);
@@ -183,8 +182,8 @@ $substring: 'str';
    - saturate
    - scale-color
 
-## 🔵 5.进阶
-### 🔵 控制指令：
+## 🪱 进阶
+### 🪱 控制指令：
 
 - @if 指令 else、else if
 - @each 指令 【一般用来循环一个列表或 Map ，它的写法是这样的 @each in { … } 】
@@ -192,7 +191,7 @@ $substring: 'str';
 - @while 指令
 
 一般控制指令都是应用于函数或 @mixin 中
-```css
+```scss
 // 判断class长度范围
 @function classLong($class, $max) {
   $leng: str-length($class);
@@ -203,7 +202,7 @@ $substring: 'str';
   }
 }@if 指令
 ```
-```css
+```scss
 $borders: 2px, 3px, 5px;
 
 @each $bor in $borders {
@@ -211,9 +210,8 @@ $borders: 2px, 3px, 5px;
     border:$bor solid;
   }
 }
-
 ```
-```css
+```scss
 $base-color: #036;
 
 // 范围是 1 ~ 3
@@ -228,9 +226,8 @@ $base-color: #036;
     background-color: lighten($base-color, $i * 5%);
   }
 }
-
 ```
-```css
+```scss
 $num: 4;
 @while $num >= 1 {
   .box-#{$num} {
@@ -239,8 +236,8 @@ $num: 4;
   $num: $num - 1;
 }
 ```
-### 🔵 混合指令 @mixin 
-```css
+### 🪱 混合指令 @mixin 
+```scss
 // 不接收参数的混合指令
 @mixin border {
   border: {

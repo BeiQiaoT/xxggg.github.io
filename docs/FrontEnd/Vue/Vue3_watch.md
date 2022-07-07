@@ -16,19 +16,19 @@ let person = reactive({
 });
 </script>
 ```
-### 监听单个数据👇
+### 🟩 监听单个数据👇
 ```javascript
 watch(name, (newName, oldName) => {
     console.log("newName", newName);
 });
 ```
-### 监听多个数据👇
+### 🟩 监听多个数据👇
 ```javascript
 watch([name, age], (newValue, oldValue) => {
     console.log("new", newValue, "old", oldValue);
 });
 ```
-### 监听Proxy数据，深度监听👇
+### 🟩 监听Proxy数据，深度监听👇
 
 1. 此时vue3将强制开启deep深度监听
 1. 当监听值为proxy对象时，oldValue值将出现异常，此时与newValue相同

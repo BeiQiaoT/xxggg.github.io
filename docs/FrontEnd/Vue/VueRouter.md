@@ -2,7 +2,7 @@
 
 > 官方文档：[https://router.vuejs.org/zh/](https://router.vuejs.org/zh/)
 
-## 🟢 安装
+## 🧩 安装
 ### Vue2、Vue3安装👇
 虽然大多数时，@vue/cli在搭建的时候都可以选择配置好~
 ```shell
@@ -12,7 +12,7 @@ npm install vue-router
 ```shell
 npm add vue-router@next
 ```
-## 🟢 引入
+## 🧩 引入
 ### Vue2引入👇
 ```javascript
 //scr/router/index.js
@@ -49,8 +49,8 @@ new Vue({
 }).$mount('#app')
 ```
 ### Vue3、Vite引入👇
-```javascript
-//src/router/index.js
+```ts
+//src/router/index.ts
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -66,8 +66,8 @@ const router = createRouter({
 
 export default router
 ```
-```javascript
-//main.js
+```ts
+//main.ts
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
@@ -75,7 +75,7 @@ import router from './router'
 createApp(App).use(router).mount('#app')
 ```
 
-## 🟢 基础使用（vue2\vue3都一样）
+## 🧩 基础使用（vue2\vue3都一样）
 ```html
 <router-link to="/index">首页</router-link>；
 ```
@@ -83,7 +83,7 @@ createApp(App).use(router).mount('#app')
 ```html
 <router-view />
 ```
-### 🟢 动态路由配置【都一样】：
+### 🧩 动态路由配置【都一样】：
 ```javascript
 //配置
 const routes = [
@@ -100,7 +100,7 @@ const routes = [
 | `/users/:username` |`/users/eduardo`  |`{ username: 'eduardo' }`  |
 |`/users/:username/posts/:postId`  |`/users/eduardo/posts/123` |`{ username: 'eduardo', postId: '123' }`  |
 
-### 🟢 路由嵌套【都一样】：
+### 🧩 路由嵌套【都一样】：
 ```javascript
 //router.js 路由配置
 {
@@ -135,12 +135,12 @@ const routes = [
 在组件Article中需要使用 `<router-view/>`
 
 
-## 🟢 【编程式导航】：
+## 🧩 【编程式导航】：
 | 声明式 | 编程式 |
 | :-: | :-: |
 | `<router-link :to="...">` | `router.push(...)` |
 
-### 🟢 router.push
+### 🧩 router.push
 #### 【vue2】👇
 ```javascript
 //vue2里
@@ -188,7 +188,7 @@ export default {
   }
 </script>
 ```
-### 🟢 router.replace
+### 🧩 router.replace
 跟 router.push 很像，唯一的不同就是，它不会向 history 添加新记录，替换掉当前的 history 记录，
 【言下之意，就是点过去，然后浏览器返回按钮不会亮（不能点返回）】
 ```javascript
@@ -201,7 +201,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 router.replace('/About') 
 ```
-### 🟢 router.go
+### 🧩 router.go
 这个方法的参数是一个整数，意思是在 history 记录中向前或者后退多少步。例如：
 ```javascript
 // 在浏览器记录中前进一步
@@ -217,8 +217,8 @@ router.go(3)
 router.go(-100)
 router.go(100)
 ```
-## 🟢【传参】：
-### 🟢 params 传参（name）：
+## 🧩 传参
+### 🧩 params 传参（name）：
 ```javascript
 //路由定义
 const routes = [
@@ -249,7 +249,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 console.log(route.params.data)
 ```
-### 🟢 query 传参（path）：
+### 🧩 query 传参（path）：
 ```javascript
  <!-- router-link 跳转 -->
 <router-link :to="{path: '/About', query: { id: 1 }}">xxg</router-link>
@@ -276,8 +276,8 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 console.log(route.query.id)
 ```
-## 配置👇
-### 🔵 重定向 redirect：
+## 🧩 配置
+### 🧩 重定向 redirect：
 ```javascript
 const routes = [
   { path: '/', redirect: '/index' },
@@ -301,7 +301,7 @@ const router = new VueRouter({
   ]
 })
 ```
-### 🔵路由别名 alias：
+### 🧩 路由别名 alias：
 “重定向”的意思是，当用户访问 /a 时，URL 将会被替换成 /b，然后匹配路由为 /b，
 
 

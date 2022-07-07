@@ -1,4 +1,4 @@
-# 🟩 过滤器
+# 🟩 过滤器 filters
 
 ```html
 <div>{{ message | filteName }}</div>

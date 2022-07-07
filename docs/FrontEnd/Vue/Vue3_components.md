@@ -1,6 +1,6 @@
 # 🟩 父子组件
-## 【父传子】defineProps
-### 父 传给子 跟Vue2 没太大区别
+## 🟩 【父传子】defineProps
+### 父 传给 子 跟Vue2 没太大区别
 ```vue
 <template>
 	<Zi :data="xxg"/>
@@ -30,7 +30,7 @@ console.log(props.data)
 ```
 ![图 29](img/98e4e226e79c98810d5e733f556668cf6022060f9c20dedb8f71f131dbe037e7.png)  
 
-## 【子传父】defineEmits
+## 🟩 【子传父】defineEmits
 
 ### 子组件 发送方法👇
 ```vue
@@ -46,10 +46,9 @@ const go_fu_emit = ()=>{
     emit('fn',true)
 }
 </script>
-
 ```
 ### 父组件 接收方法👇跟Vue2 没区别
-```html
+```vue
 <template>
     <zi  @emit='xxg()'/>
 </template>
@@ -62,5 +61,4 @@ const xxg = () =>{
 }
 </script>
 ```
-## 
 

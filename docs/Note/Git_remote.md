@@ -9,7 +9,7 @@
 
 ### 👁️ 先查看绑定情况
 `git remote -v`
-```shell
+```sh
 git remote -v
 
 github  https://github.com/XXGGG/test.git (fetch)
@@ -21,17 +21,17 @@ github  https://github.com/XXGGG/test.git (push)
 下面👇这个“github”名称是于之前那个远程仓库名称一样的,它有可能叫“origin”）
 :::
 
-```shell
+```sh
 git remote set-url --add github https://gitee.com/XXGGG/test.git
 ```
 或：
-```shell
+```sh
 git remote set-url --add origin https://gitee.com/XXGGG/test.git
 ```
 
 
 查看远程仓库。github这个名称就绑定了两个push地址了，
-```shell
+```sh
 github  https://github.com/XXGGG/test.git (fetch)
 github  https://github.com/XXGGG/test.git (push)
 github  https://gitee.com/XXGGG/test.git (push)

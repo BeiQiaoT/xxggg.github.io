@@ -3,8 +3,8 @@
 > 刚搭建完的Vite项目是不会像vue/cli一样自带 vue-router 和 vuex的   
 > 所以要自己去安装这两个插件
 
-## 安装Vue-Router👇
-```shell
+### ⚡ 安装Vue-Router
+```sh
 npm add vue-router@next
 ```
 `src/router/index.ts`
@@ -28,11 +28,14 @@ import router from "./router";
 
 createApp(App).use(router).mount('#app')
 ```
-## 跳转：
+### ⚡ 跳转：
 ```html
 <router-link to="/xxg">Go to xxg</router-link>
 ```
-## 显示的区域：
+### ⚡ 显示的区域：
 ```html
 <router-view></router-view>
 ```
+
+## ⚡ 更多
+更多关于 Vue-Router的操作请看 [🧩VueRouter](VueRouter.md)

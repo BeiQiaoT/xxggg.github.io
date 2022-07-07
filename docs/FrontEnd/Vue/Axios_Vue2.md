@@ -1,6 +1,6 @@
 # 📡Axios + Vue2【二次封装/跨域】
 
-### 对Axios的二次封装👇
+### 📡 对Axios的二次封装
 ✔️ 新建 src/api/request.ts
 ```javascript
 import axios from  'axios'
@@ -51,7 +51,7 @@ export default request
 ```
 > 这种方式呢，就是在请求的 调用一下这两个封装好的方法。
 
-### 对需要请求的api接口封装👇
+### 📡 对需要请求的api接口封装👇
 ✔️ 新建 src/api/index.ts
 ```javascript
 // 接口函数封装，方便外部调用接口
@@ -69,7 +69,7 @@ export function getItemList(datas) {
   })
 }
 ```
-## Vue/cli【开发环境-跨域】
+## 📡 Vue/cli【开发环境-跨域】
 使用 proxy 代理解决这个问题，新建 vue.config.js 文件，添加配置：
 ```js
 module.exports={

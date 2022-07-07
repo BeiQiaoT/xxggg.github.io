@@ -1,6 +1,6 @@
-# 📡Axios + Vue3【二次封装/跨域】
+# 📡 Axios + Vue3【二次封装/跨域】
 
-### 二次封装axios，添加拦截器
+### 📡 二次封装axios，添加拦截器
 ✔️ 新建 src/api/request.ts
 ```typescript
 import axios from 'axios'
@@ -31,7 +31,7 @@ requests.interceptors.response.use((response) => {
 
 export default requests
 ```
-### 集合 api请求接口
+## 📡 集合 api请求接口
 **✔️新建 src/api/index.ts**
 ```typescript
 // 引入上面配置好的
@@ -45,7 +45,7 @@ export const test = () =>{
 }
 //....
 ```
-### 使用接口👇
+## 📡 使用接口
 app.vue👇
 ```html
 <script setup lang="ts">

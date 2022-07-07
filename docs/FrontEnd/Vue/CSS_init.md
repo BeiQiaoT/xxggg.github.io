@@ -1,6 +1,6 @@
 # 🍼 网页样式初始化
 
-### 📃 reset.css
+### 🍼 reset.css
 ```css
 /* 
 存放：src/assets/reset.css
@@ -56,7 +56,7 @@ a{
 }
 ```
 
-### 📃 引入到项目main.js
+### 🍼 引入到项目main.js
 ```ts
 // main.ts
 import './assets/reset.css'

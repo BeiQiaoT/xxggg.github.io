@@ -1,6 +1,6 @@
-# ⛏️ Vite 区分环境
+# ⚡ Vite 区分环境
 
-### 在项目根目录新建 
+### ⚡ 在项目根目录新建 
 1. .env.development
 2. .env.production
 3. .env.test
@@ -19,7 +19,7 @@ VITE_BASE_API = http://api.xgtools.top/
 VITE_MODE_NAME = test
 VITE_BASE_API = http://127.0.0.1:4523/mock/974557
 ```
-### 创建代码提示 env.d.ts
+### ⚡ 创建代码提示 env.d.ts
 
 ![图 8](img/653bdb689b6b2c939f8431677bf690b379d51ad20b0e5ac5de698191615de2fb.png)  
 
@@ -29,7 +29,7 @@ interface ImportMetaEnv {
   VITE_BASE_API: string
 }
 ```
-### 使用👇
+### ⚡ 使用
 ![图 10](img/ceb93e52fd8be40a3527e38627c432e2aa9878044ae60455f94c710ed2742218.png)  
 
 ```typescript

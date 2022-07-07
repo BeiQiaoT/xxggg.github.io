@@ -5,7 +5,7 @@
 3. `methods`中配置的函数，不要用箭头函数！否侧`this`就不是`vm`了
 4. `methods`中配置的函数，都是被Vue所管理的函数，this的指向是vm 或 组件实例对象
 5. @click='demo' 和 @click="demo($event)"效果一致，但后者可以传参！
-## 获取原生 DOM 事件：$event
+## 🟩 获取原生 DOM 事件：$event
 
 特殊变量 $event 可以访问原生DOM事件
 ```html
@@ -23,7 +23,7 @@ methods: {
 }
 ```
 
-## 鼠标事件
+## 🟩 鼠标事件
 其实大部分符合[JavaScript事件](../JavaScript/JS_events)
 | 鼠标        | 事件  |
 | :-:         | :-:   |
@@ -38,7 +38,7 @@ methods: {
 | @mouseover  | 移出  |
 
      
-## 事件修饰符
+## 🟩 事件修饰符
 1. prevent：阻止默认事件（常用）
 2. stop：阻止事件冒泡（常用）
 3. once：事件只触发一次（常用）
@@ -71,7 +71,7 @@ methods: {
 <a @click.once="doThis"></a>
 ```
 
-## 按键修饰符
+## 🟩 按键修饰符
 #### 只有在 `key` 是 `Enter` 时调用 `login()`
 ```html
 <input @keyup.enter="login">
@@ -81,22 +81,22 @@ methods: {
 <input @keyup.13="login">
 ```
 
-1. .enter: 回车键；
-2. .tab: TAB键；
-3. .delete: 删除和退格键；
-4. .esc: 只有在event.终止键；
-5. .space: 删除键；
-6. .up: 上方向键：
-7. .down: 下方向键：
-8. .left: 左方向键：
-9. .right: 右方向键：
+1. .enter 【回车键】
+2. .tab 【TAB键】
+3. .delete 【删除和退格键】
+4. .esc 【只有在event.终止键】
+5. .space 【删除键】
+6. .up 【上方向键】
+7. .down 【下方向键】
+8. .left 【左方向键】
+9. .right 【右方向键】
 
-## 系统修饰键
+## 🟩 系统修饰键
 
-1. .ctrl:
-2. .alt:
-3. .shift:
-4. .meta:
+1. .ctrl
+2. .alt
+3. .shift
+4. .meta
 
 
 ```html

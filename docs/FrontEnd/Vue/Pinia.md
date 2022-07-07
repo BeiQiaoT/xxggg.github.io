@@ -1,19 +1,19 @@
 # 🍍 Pinia
 
 Pinia类似Vuex是状态管理工具，但是听说Pinia比Vuex更加优秀！更加简单易用，好学！
-## 【安装】
+## 🍍 安装
 ```shell
 npm install pinia
 ```
-## 【引入】
-### Vue3:
+## 🍍 引入
+### 🍍 Vue3:
 ```typescript
 //main.ts
 import { createPinia } from 'pinia'
 
 app.use(createPinia())
 ```
-### Vue2:
+### 🍍 Vue2:
 在vue2中使用，还需要安装一个插件将create注入`pinia`
 ```typescript
 //main.ts
@@ -22,7 +22,7 @@ import { createPinia PiniaVuePlugin } from 'pinia'
 Vue.use(PiniaVuePlugin)
 const pinpa = cretePinia()
 ```
-## 【获取数据】👇
+## 🍍 获取数据
 ```vue
 <template>
     {{ Store.count }}
@@ -61,16 +61,16 @@ const { count , foo } = storeToRefs(Store)
 </script>
 
 ```
-## 【修改数据】👇
+## 🍍 修改数据
 ### 方法一：直接加
-```javascript
+```ts
 import { useStore } from '../store'
 const Store = useStore()
 
 Store.count++
 ```
 ### 方法二：使用$patch 批量更新
-```javascript
+```ts
 let Count_add = () => {
     // Store.count++
     Store.$patch({
@@ -80,7 +80,7 @@ let Count_add = () => {
 }
 ```
 ### 方法三：更好的批量更新
-```javascript
+```ts
 let test_patch = () => Store.$patch(state => {
     state.count++
     state.foo = 'hello'
@@ -92,7 +92,7 @@ let test_patch = () => Store.$patch(state => {
 
 - 逻辑比较多的时候可以封装到 actions 做处理
 - 【注意】：不要使用箭头函数定义 actions（因为箭头函数里 this指向问题！）
-```javascript
+```ts
 //【actions】设置
 //store/index.ts
 import { defineStore } from "pinia";
@@ -118,7 +118,7 @@ export const useStore = defineStore('main',{
     },
 })
 ```
-```javascript
+```ts
 //【actions】调用
 // home.vue
 import { useStore } from '../store'
@@ -135,7 +135,7 @@ const button = () => [
 - 普通多次修改和patch的区别再于
 1. 普通多次修改，每修改一次数据，模板更新一次，
 2. patch是把所有数据都同时修改完成后，模板一次全给更新了！有利于性能！【推荐】
-## 【getters】
+## 🍍 getters
 类似于组件的computed 用来封装计算属性，有缓存功能
 ```typescript
 //store/index.ts
@@ -160,7 +160,7 @@ state:()=>{
 //home.vue
 {{ Store.PhoneHidden }}
 ```
-## Pinia中Store的相互调用👇
+## 🍍 Pinia中Store的相互调用
 在store文件夹下新建xxg.ts
 ```typescript
 import { defineStore  } from "pinia";
